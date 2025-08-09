@@ -1,3 +1,3 @@
 # Lab1-ROS2
-Repository for first lab of ROS2 training
+Repository for labs of ROS2 training
 
