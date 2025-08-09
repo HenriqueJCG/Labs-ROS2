@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.000626] (-) JobUnselected: {'identifier': 'temperature_monitor'}
+[0.000787] (temperature_system) JobQueued: {'identifier': 'temperature_system', 'dependencies': OrderedDict()}
+[0.003305] (temperature_system) JobStarted: {'identifier': 'temperature_system'}
+[0.099740] (-) TimerEvent: {}
+[0.201816] (-) TimerEvent: {}
+[0.309213] (-) TimerEvent: {}
+[0.414749] (-) TimerEvent: {}
+[0.526764] (-) TimerEvent: {}
+[0.632415] (-) TimerEvent: {}
+[0.733788] (-) TimerEvent: {}
+[0.838617] (-) TimerEvent: {}
+[0.941414] (-) TimerEvent: {}
+[1.043611] (-) TimerEvent: {}
+[1.151402] (-) TimerEvent: {}
+[1.255648] (-) TimerEvent: {}
+[1.362407] (-) TimerEvent: {}
+[1.463084] (-) TimerEvent: {}
+[1.565419] (-) TimerEvent: {}
+[1.666940] (-) TimerEvent: {}
+[1.770417] (-) TimerEvent: {}
+[1.878085] (-) TimerEvent: {}
+[1.981462] (-) TimerEvent: {}
+[2.082436] (-) TimerEvent: {}
+[2.184603] (-) TimerEvent: {}
+[2.287568] (-) TimerEvent: {}
+[2.390695] (-) TimerEvent: {}
+[2.502477] (-) TimerEvent: {}
+[2.605171] (-) TimerEvent: {}
+[2.709621] (-) TimerEvent: {}
+[2.828412] (-) TimerEvent: {}
+[2.930482] (-) TimerEvent: {}
+[3.038437] (-) TimerEvent: {}
+[3.139478] (-) TimerEvent: {}
+[3.241385] (-) TimerEvent: {}
+[3.346948] (-) TimerEvent: {}
+[3.452115] (-) TimerEvent: {}
+[3.553410] (-) TimerEvent: {}
+[3.656576] (-) TimerEvent: {}
+[3.761639] (-) TimerEvent: {}
+[3.869488] (-) TimerEvent: {}
+[3.972084] (-) TimerEvent: {}
+[4.079986] (-) TimerEvent: {}
+[4.107168] (temperature_system) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n                                             ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n             ^^^^^^^^^^^^^^^\n  File "/usr/lib/python3.12/subprocess.py", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[4.125044] (temperature_system) JobEnded: {'identifier': 'temperature_system', 'rc': 1}
+[4.144119] (-) EventReactorShutdown: {}

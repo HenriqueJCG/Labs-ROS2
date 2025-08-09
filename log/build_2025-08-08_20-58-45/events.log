@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.003978] (temperature_monitor) JobQueued: {'identifier': 'temperature_monitor', 'dependencies': OrderedDict()}
+[0.004370] (temperature_system) JobQueued: {'identifier': 'temperature_system', 'dependencies': OrderedDict()}
+[0.004796] (temperature_monitor) JobStarted: {'identifier': 'temperature_monitor'}
+[0.074148] (temperature_system) JobStarted: {'identifier': 'temperature_system'}
+[0.103045] (-) TimerEvent: {}
+[0.207069] (-) TimerEvent: {}
+[0.309791] (-) TimerEvent: {}
+[0.410511] (-) TimerEvent: {}
+[0.513973] (-) TimerEvent: {}
+[0.614617] (-) TimerEvent: {}
+[0.722022] (-) TimerEvent: {}
+[0.833355] (-) TimerEvent: {}
+[0.937085] (-) TimerEvent: {}
+[1.039064] (-) TimerEvent: {}
+[1.142478] (-) TimerEvent: {}
+[1.248429] (-) TimerEvent: {}
+[1.349977] (-) TimerEvent: {}
+[1.453342] (-) TimerEvent: {}
+[1.560017] (-) TimerEvent: {}
+[1.669475] (-) TimerEvent: {}
+[1.781272] (-) TimerEvent: {}
+[1.884578] (-) TimerEvent: {}
+[1.988653] (-) TimerEvent: {}
+[2.091164] (-) TimerEvent: {}
+[2.193843] (-) TimerEvent: {}
+[2.303228] (-) TimerEvent: {}
+[2.411546] (-) TimerEvent: {}
+[2.517170] (-) TimerEvent: {}
+[2.620790] (-) TimerEvent: {}
+[2.725043] (-) TimerEvent: {}
+[2.830807] (-) TimerEvent: {}
+[2.934275] (-) TimerEvent: {}
+[3.045386] (-) TimerEvent: {}
+[3.148528] (-) TimerEvent: {}
+[3.252095] (-) TimerEvent: {}
+[3.355956] (-) TimerEvent: {}
+[3.460557] (-) TimerEvent: {}
+[3.564727] (-) TimerEvent: {}
+[3.666842] (-) TimerEvent: {}
+[3.770274] (-) TimerEvent: {}
+[3.871618] (-) TimerEvent: {}
+[3.972979] (-) TimerEvent: {}
+[4.076735] (-) TimerEvent: {}
+[4.180216] (-) TimerEvent: {}
+[4.281580] (-) TimerEvent: {}
+[4.385663] (-) TimerEvent: {}
+[4.487569] (-) TimerEvent: {}
+[4.589628] (-) TimerEvent: {}
+[4.695187] (-) TimerEvent: {}
+[4.837347] (-) TimerEvent: {}
+[4.938337] (-) TimerEvent: {}
+[5.045446] (-) TimerEvent: {}
+[5.151020] (-) TimerEvent: {}
+[5.255002] (-) TimerEvent: {}
+[5.355816] (-) TimerEvent: {}
+[5.460467] (-) TimerEvent: {}
+[5.565153] (-) TimerEvent: {}
+[5.665807] (-) TimerEvent: {}
+[5.768083] (-) TimerEvent: {}
+[5.874181] (-) TimerEvent: {}
+[5.976955] (-) TimerEvent: {}
+[6.082123] (-) TimerEvent: {}
+[6.188247] (-) TimerEvent: {}
+[6.294228] (-) TimerEvent: {}
+[6.396015] (-) TimerEvent: {}
+[6.497212] (-) TimerEvent: {}
+[6.599002] (-) TimerEvent: {}
+[6.639145] (temperature_system) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n                                             ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n             ^^^^^^^^^^^^^^^\n  File "/usr/lib/python3.12/subprocess.py", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[6.649239] (temperature_system) JobEnded: {'identifier': 'temperature_system', 'rc': 1}
+[6.672549] (temperature_monitor) JobEnded: {'identifier': 'temperature_monitor', 'rc': 'SIGINT'}
+[6.688352] (-) EventReactorShutdown: {}

@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000641] (temperature_monitor) JobQueued: {'identifier': 'temperature_monitor', 'dependencies': OrderedDict()}
+[0.000754] (temperature_system) JobQueued: {'identifier': 'temperature_system', 'dependencies': OrderedDict()}
+[0.004314] (temperature_monitor) JobStarted: {'identifier': 'temperature_monitor'}
+[0.061740] (temperature_system) JobStarted: {'identifier': 'temperature_system'}
+[0.097815] (-) TimerEvent: {}
+[0.199794] (-) TimerEvent: {}
+[0.303743] (-) TimerEvent: {}
+[0.408413] (-) TimerEvent: {}
+[0.513364] (-) TimerEvent: {}
+[0.617397] (-) TimerEvent: {}
+[0.720119] (-) TimerEvent: {}
+[0.823184] (-) TimerEvent: {}
+[0.926695] (-) TimerEvent: {}
+[1.030531] (-) TimerEvent: {}
+[1.161381] (-) TimerEvent: {}
+[1.267352] (-) TimerEvent: {}
+[1.379816] (-) TimerEvent: {}
+[1.480649] (-) TimerEvent: {}
+[1.583432] (-) TimerEvent: {}
+[1.686907] (-) TimerEvent: {}
+[1.791055] (-) TimerEvent: {}
+[1.893075] (-) TimerEvent: {}
+[1.997335] (-) TimerEvent: {}
+[2.099585] (-) TimerEvent: {}
+[2.202901] (-) TimerEvent: {}
+[2.306159] (-) TimerEvent: {}
+[2.412614] (-) TimerEvent: {}
+[2.515426] (-) TimerEvent: {}
+[2.620598] (-) TimerEvent: {}
+[2.723775] (-) TimerEvent: {}
+[2.828353] (-) TimerEvent: {}
+[2.929111] (-) TimerEvent: {}
+[3.030648] (-) TimerEvent: {}
+[3.133050] (-) TimerEvent: {}
+[3.234157] (-) TimerEvent: {}
+[3.337332] (-) TimerEvent: {}
+[3.439361] (-) TimerEvent: {}
+[3.545367] (-) TimerEvent: {}
+[3.646466] (-) TimerEvent: {}
+[3.747397] (-) TimerEvent: {}
+[3.849644] (-) TimerEvent: {}
+[3.952549] (-) TimerEvent: {}
+[4.055558] (-) TimerEvent: {}
+[4.159382] (-) TimerEvent: {}
+[4.268388] (-) TimerEvent: {}
+[4.369193] (-) TimerEvent: {}
+[4.484184] (-) TimerEvent: {}
+[4.594712] (-) TimerEvent: {}
+[4.697000] (-) TimerEvent: {}
+[4.797968] (-) TimerEvent: {}
+[4.901759] (-) TimerEvent: {}
+[5.004739] (-) TimerEvent: {}
+[5.107645] (-) TimerEvent: {}
+[5.211741] (-) TimerEvent: {}
+[5.258976] (temperature_system) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n                                             ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n             ^^^^^^^^^^^^^^^\n  File "/usr/lib/python3.12/subprocess.py", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[5.282719] (temperature_system) JobEnded: {'identifier': 'temperature_system', 'rc': 1}
+[5.298142] (temperature_monitor) JobEnded: {'identifier': 'temperature_monitor', 'rc': 'SIGINT'}
+[5.305804] (-) EventReactorShutdown: {}

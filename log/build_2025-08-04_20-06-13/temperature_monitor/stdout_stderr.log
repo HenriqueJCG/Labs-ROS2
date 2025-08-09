@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/temperature_monitor/temperature_monitor.egg-info
+writing ../../build/temperature_monitor/temperature_monitor.egg-info/PKG-INFO
+writing dependency_links to ../../build/temperature_monitor/temperature_monitor.egg-info/dependency_links.txt
+writing entry points to ../../build/temperature_monitor/temperature_monitor.egg-info/entry_points.txt
+writing requirements to ../../build/temperature_monitor/temperature_monitor.egg-info/requires.txt
+writing top-level names to ../../build/temperature_monitor/temperature_monitor.egg-info/top_level.txt
+writing manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+reading manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+writing manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/henrique/ros2_ws/build/temperature_monitor/build
+creating /home/henrique/ros2_ws/build/temperature_monitor/build/lib
+creating /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor
+copying temperature_monitor/__init__.py -> /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor
+copying temperature_monitor/publisher_node.py -> /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor
+copying temperature_monitor/temperature_monitor_node.py -> /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor
+running install
+running install_lib
+creating /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor
+copying /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor/__init__.py -> /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor
+copying /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor/publisher_node.py -> /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor
+copying /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor/temperature_monitor_node.py -> /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor
+byte-compiling /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor/publisher_node.py to publisher_node.cpython-312.pyc
+byte-compiling /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor/temperature_monitor_node.py to temperature_monitor_node.cpython-312.pyc
+running install_data
+creating /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index
+creating /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index/resource_index
+creating /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index/resource_index/packages
+copying resource/temperature_monitor -> /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index/resource_index/packages
+copying package.xml -> /home/henrique/ros2_ws/install/temperature_monitor/share/temperature_monitor
+running install_egg_info
+Copying ../../build/temperature_monitor/temperature_monitor.egg-info to /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor-0.0.0-py3.12.egg-info
+running install_scripts
+Installing monitor_node script to /home/henrique/ros2_ws/install/temperature_monitor/lib/temperature_monitor
+Installing publisher_node script to /home/henrique/ros2_ws/install/temperature_monitor/lib/temperature_monitor
+writing list of installed files to '/home/henrique/ros2_ws/build/temperature_monitor/install.log'

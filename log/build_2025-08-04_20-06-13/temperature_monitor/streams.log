@@ -1,0 +1,41 @@
+[10.385s] Invoking command in '/home/henrique/ros2_ws/src/temperature_monitor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temperature_monitor build --build-base /home/henrique/ros2_ws/build/temperature_monitor/build install --record /home/henrique/ros2_ws/build/temperature_monitor/install.log --single-version-externally-managed install_data
+[12.493s] running egg_info
+[12.500s] creating ../../build/temperature_monitor/temperature_monitor.egg-info
+[12.659s] writing ../../build/temperature_monitor/temperature_monitor.egg-info/PKG-INFO
+[12.662s] writing dependency_links to ../../build/temperature_monitor/temperature_monitor.egg-info/dependency_links.txt
+[12.666s] writing entry points to ../../build/temperature_monitor/temperature_monitor.egg-info/entry_points.txt
+[12.668s] writing requirements to ../../build/temperature_monitor/temperature_monitor.egg-info/requires.txt
+[12.669s] writing top-level names to ../../build/temperature_monitor/temperature_monitor.egg-info/top_level.txt
+[12.672s] writing manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+[13.111s] reading manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+[13.113s] writing manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+[13.115s] running build
+[13.115s] running build_py
+[13.122s] creating /home/henrique/ros2_ws/build/temperature_monitor/build
+[13.126s] creating /home/henrique/ros2_ws/build/temperature_monitor/build/lib
+[13.126s] creating /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor
+[13.127s] copying temperature_monitor/__init__.py -> /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor
+[13.136s] copying temperature_monitor/publisher_node.py -> /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor
+[13.136s] copying temperature_monitor/temperature_monitor_node.py -> /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor
+[13.137s] running install
+[13.165s] running install_lib
+[13.424s] creating /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor
+[13.431s] copying /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor/__init__.py -> /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor
+[13.431s] copying /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor/publisher_node.py -> /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor
+[13.432s] copying /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor/temperature_monitor_node.py -> /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor
+[13.438s] byte-compiling /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor/__init__.py to __init__.cpython-312.pyc
+[13.447s] byte-compiling /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor/publisher_node.py to publisher_node.cpython-312.pyc
+[13.451s] byte-compiling /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor/temperature_monitor_node.py to temperature_monitor_node.cpython-312.pyc
+[13.455s] running install_data
+[13.459s] creating /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index
+[13.460s] creating /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index/resource_index
+[13.460s] creating /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index/resource_index/packages
+[13.468s] copying resource/temperature_monitor -> /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index/resource_index/packages
+[13.469s] copying package.xml -> /home/henrique/ros2_ws/install/temperature_monitor/share/temperature_monitor
+[13.469s] running install_egg_info
+[13.727s] Copying ../../build/temperature_monitor/temperature_monitor.egg-info to /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor-0.0.0-py3.12.egg-info
+[13.736s] running install_scripts
+[15.311s] Installing monitor_node script to /home/henrique/ros2_ws/install/temperature_monitor/lib/temperature_monitor
+[15.312s] Installing publisher_node script to /home/henrique/ros2_ws/install/temperature_monitor/lib/temperature_monitor
+[15.317s] writing list of installed files to '/home/henrique/ros2_ws/build/temperature_monitor/install.log'
+[15.645s] Invoked command in '/home/henrique/ros2_ws/src/temperature_monitor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temperature_monitor build --build-base /home/henrique/ros2_ws/build/temperature_monitor/build install --record /home/henrique/ros2_ws/build/temperature_monitor/install.log --single-version-externally-managed install_data

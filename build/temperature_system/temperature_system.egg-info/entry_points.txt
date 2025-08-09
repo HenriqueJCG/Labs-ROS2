@@ -1,0 +1,4 @@
+[console_scripts]
+advanced_monitor_node = temperature_system.advanced_monitor_node:main
+enhanced_publisher_node = temperature_system.enhanced_publisher_node:main
+logger_node = temperature_system.logger_node:main

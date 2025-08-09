@@ -1,0 +1,5 @@
+  File "/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system/advanced_monitor_node.py", line 72
+    print(f' {temperature:.1f}C )
+          ^
+SyntaxError: unterminated f-string literal (detected at line 72)
+

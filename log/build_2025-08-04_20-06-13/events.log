@@ -1,0 +1,198 @@
+[0.000000] (-) TimerEvent: {}
+[0.002838] (temperature_monitor) JobQueued: {'identifier': 'temperature_monitor', 'dependencies': OrderedDict()}
+[0.003788] (temperature_monitor) JobStarted: {'identifier': 'temperature_monitor'}
+[0.100799] (-) TimerEvent: {}
+[0.201449] (-) TimerEvent: {}
+[0.302971] (-) TimerEvent: {}
+[0.408209] (-) TimerEvent: {}
+[0.511951] (-) TimerEvent: {}
+[0.615365] (-) TimerEvent: {}
+[0.719047] (-) TimerEvent: {}
+[0.821940] (-) TimerEvent: {}
+[0.922829] (-) TimerEvent: {}
+[1.026826] (-) TimerEvent: {}
+[1.127846] (-) TimerEvent: {}
+[1.234812] (-) TimerEvent: {}
+[1.335463] (-) TimerEvent: {}
+[1.440812] (-) TimerEvent: {}
+[1.543879] (-) TimerEvent: {}
+[1.646361] (-) TimerEvent: {}
+[1.749786] (-) TimerEvent: {}
+[1.850984] (-) TimerEvent: {}
+[1.952065] (-) TimerEvent: {}
+[2.054862] (-) TimerEvent: {}
+[2.158663] (-) TimerEvent: {}
+[2.262821] (-) TimerEvent: {}
+[2.365101] (-) TimerEvent: {}
+[2.471580] (-) TimerEvent: {}
+[2.574671] (-) TimerEvent: {}
+[2.677276] (-) TimerEvent: {}
+[2.780615] (-) TimerEvent: {}
+[2.883514] (-) TimerEvent: {}
+[2.986760] (-) TimerEvent: {}
+[3.089156] (-) TimerEvent: {}
+[3.193627] (-) TimerEvent: {}
+[3.294490] (-) TimerEvent: {}
+[3.396180] (-) TimerEvent: {}
+[3.500812] (-) TimerEvent: {}
+[3.603784] (-) TimerEvent: {}
+[3.704942] (-) TimerEvent: {}
+[3.808890] (-) TimerEvent: {}
+[3.912651] (-) TimerEvent: {}
+[4.019299] (-) TimerEvent: {}
+[4.121111] (-) TimerEvent: {}
+[4.227830] (-) TimerEvent: {}
+[4.328623] (-) TimerEvent: {}
+[4.430834] (-) TimerEvent: {}
+[4.533900] (-) TimerEvent: {}
+[4.638868] (-) TimerEvent: {}
+[4.741008] (-) TimerEvent: {}
+[4.843540] (-) TimerEvent: {}
+[4.947905] (-) TimerEvent: {}
+[5.048829] (-) TimerEvent: {}
+[5.154869] (-) TimerEvent: {}
+[5.256906] (-) TimerEvent: {}
+[5.361248] (-) TimerEvent: {}
+[5.465949] (-) TimerEvent: {}
+[5.567568] (-) TimerEvent: {}
+[5.671028] (-) TimerEvent: {}
+[5.772628] (-) TimerEvent: {}
+[5.876578] (-) TimerEvent: {}
+[5.981988] (-) TimerEvent: {}
+[6.082798] (-) TimerEvent: {}
+[6.186957] (-) TimerEvent: {}
+[6.289452] (-) TimerEvent: {}
+[6.392503] (-) TimerEvent: {}
+[6.496203] (-) TimerEvent: {}
+[6.600096] (-) TimerEvent: {}
+[6.700844] (-) TimerEvent: {}
+[6.803970] (-) TimerEvent: {}
+[6.908214] (-) TimerEvent: {}
+[7.014416] (-) TimerEvent: {}
+[7.117586] (-) TimerEvent: {}
+[7.222586] (-) TimerEvent: {}
+[7.326836] (-) TimerEvent: {}
+[7.428432] (-) TimerEvent: {}
+[7.534431] (-) TimerEvent: {}
+[7.647039] (-) TimerEvent: {}
+[7.752821] (-) TimerEvent: {}
+[7.860664] (-) TimerEvent: {}
+[7.965005] (-) TimerEvent: {}
+[8.066311] (-) TimerEvent: {}
+[8.168162] (-) TimerEvent: {}
+[8.270742] (-) TimerEvent: {}
+[8.372383] (-) TimerEvent: {}
+[8.473281] (-) TimerEvent: {}
+[8.576107] (-) TimerEvent: {}
+[8.677847] (-) TimerEvent: {}
+[8.781471] (-) TimerEvent: {}
+[8.886518] (-) TimerEvent: {}
+[8.987372] (-) TimerEvent: {}
+[9.090954] (-) TimerEvent: {}
+[9.193944] (-) TimerEvent: {}
+[9.300799] (-) TimerEvent: {}
+[9.405090] (-) TimerEvent: {}
+[9.508841] (-) TimerEvent: {}
+[9.612863] (-) TimerEvent: {}
+[9.714009] (-) TimerEvent: {}
+[9.817636] (-) TimerEvent: {}
+[9.922068] (-) TimerEvent: {}
+[10.027328] (-) TimerEvent: {}
+[10.129326] (-) TimerEvent: {}
+[10.231965] (-) TimerEvent: {}
+[10.335566] (-) TimerEvent: {}
+[10.374606] (temperature_monitor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/temperature_monitor', 'build', '--build-base', '/home/henrique/ros2_ws/build/temperature_monitor/build', 'install', '--record', '/home/henrique/ros2_ws/build/temperature_monitor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/henrique/ros2_ws/src/temperature_monitor', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'henrique', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/henrique/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/202/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/henrique', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.102.3', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/202/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/henrique/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/202/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/202/usr/share/code/code', 'MANAGERPID': '1689', 'SYSTEMD_EXEC_PID': '1912', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2994', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/henrique/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'henrique', 'JOURNAL_STREAM': '9:28204', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'henrique', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/henrique-VMware-Virtual-Platform:@/tmp/.ICE-unix/1875,unix/henrique-VMware-Virtual-Platform:/tmp/.ICE-unix/1875', 'GTK_EXE_PREFIX': '/snap/code/202/usr', 'INVOCATION_ID': '22d0b0a671cf4472aa21512fd082ee47', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/202/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/henrique/snap/code/202/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VQ02A3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5c83f94257.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/henrique/snap/code/202/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/henrique/ros2_ws/build/temperature_monitor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/henrique/snap/code/202/.local/share:/home/henrique/snap/code/202:/snap/code/202/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/henrique/ros2_ws/build/temperature_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[10.435898] (-) TimerEvent: {}
+[10.536977] (-) TimerEvent: {}
+[10.640495] (-) TimerEvent: {}
+[10.746324] (-) TimerEvent: {}
+[10.847136] (-) TimerEvent: {}
+[10.953855] (-) TimerEvent: {}
+[11.054902] (-) TimerEvent: {}
+[11.157880] (-) TimerEvent: {}
+[11.260086] (-) TimerEvent: {}
+[11.363148] (-) TimerEvent: {}
+[11.463981] (-) TimerEvent: {}
+[11.569825] (-) TimerEvent: {}
+[11.683828] (-) TimerEvent: {}
+[11.787850] (-) TimerEvent: {}
+[11.893663] (-) TimerEvent: {}
+[11.996147] (-) TimerEvent: {}
+[12.097639] (-) TimerEvent: {}
+[12.198823] (-) TimerEvent: {}
+[12.300195] (-) TimerEvent: {}
+[12.403063] (-) TimerEvent: {}
+[12.496139] (temperature_monitor) StdoutLine: {'line': b'running egg_info\n'}
+[12.503869] (temperature_monitor) StdoutLine: {'line': b'creating ../../build/temperature_monitor/temperature_monitor.egg-info\n'}
+[12.504560] (-) TimerEvent: {}
+[12.610058] (-) TimerEvent: {}
+[12.662531] (temperature_monitor) StdoutLine: {'line': b'writing ../../build/temperature_monitor/temperature_monitor.egg-info/PKG-INFO\n'}
+[12.665969] (temperature_monitor) StdoutLine: {'line': b'writing dependency_links to ../../build/temperature_monitor/temperature_monitor.egg-info/dependency_links.txt\n'}
+[12.669031] (temperature_monitor) StdoutLine: {'line': b'writing entry points to ../../build/temperature_monitor/temperature_monitor.egg-info/entry_points.txt\n'}
+[12.671838] (temperature_monitor) StdoutLine: {'line': b'writing requirements to ../../build/temperature_monitor/temperature_monitor.egg-info/requires.txt\n'}
+[12.672335] (temperature_monitor) StdoutLine: {'line': b'writing top-level names to ../../build/temperature_monitor/temperature_monitor.egg-info/top_level.txt\n'}
+[12.675403] (temperature_monitor) StdoutLine: {'line': b"writing manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'\n"}
+[12.714952] (-) TimerEvent: {}
+[12.819773] (-) TimerEvent: {}
+[12.921202] (-) TimerEvent: {}
+[13.022443] (-) TimerEvent: {}
+[13.111988] (temperature_monitor) StdoutLine: {'line': b"reading manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'\n"}
+[13.116157] (temperature_monitor) StdoutLine: {'line': b"writing manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'\n"}
+[13.118779] (temperature_monitor) StdoutLine: {'line': b'running build\n'}
+[13.119155] (temperature_monitor) StdoutLine: {'line': b'running build_py\n'}
+[13.124868] (temperature_monitor) StdoutLine: {'line': b'creating /home/henrique/ros2_ws/build/temperature_monitor/build\n'}
+[13.125821] (-) TimerEvent: {}
+[13.129210] (temperature_monitor) StdoutLine: {'line': b'creating /home/henrique/ros2_ws/build/temperature_monitor/build/lib\n'}
+[13.129900] (temperature_monitor) StdoutLine: {'line': b'creating /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor\n'}
+[13.130345] (temperature_monitor) StdoutLine: {'line': b'copying temperature_monitor/__init__.py -> /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor\n'}
+[13.139478] (temperature_monitor) StdoutLine: {'line': b'copying temperature_monitor/publisher_node.py -> /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor\n'}
+[13.139957] (temperature_monitor) StdoutLine: {'line': b'copying temperature_monitor/temperature_monitor_node.py -> /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor\n'}
+[13.140199] (temperature_monitor) StdoutLine: {'line': b'running install\n'}
+[13.168490] (temperature_monitor) StdoutLine: {'line': b'running install_lib\n'}
+[13.227924] (-) TimerEvent: {}
+[13.330937] (-) TimerEvent: {}
+[13.427585] (temperature_monitor) StdoutLine: {'line': b'creating /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor\n'}
+[13.431818] (-) TimerEvent: {}
+[13.434059] (temperature_monitor) StdoutLine: {'line': b'copying /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor/__init__.py -> /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor\n'}
+[13.434733] (temperature_monitor) StdoutLine: {'line': b'copying /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor/publisher_node.py -> /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor\n'}
+[13.435259] (temperature_monitor) StdoutLine: {'line': b'copying /home/henrique/ros2_ws/build/temperature_monitor/build/lib/temperature_monitor/temperature_monitor_node.py -> /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor\n'}
+[13.439656] (temperature_monitor) StdoutLine: {'line': b'byte-compiling /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor/__init__.py to __init__.cpython-312.pyc\n'}
+[13.450800] (temperature_monitor) StdoutLine: {'line': b'byte-compiling /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor/publisher_node.py to publisher_node.cpython-312.pyc\n'}
+[13.454908] (temperature_monitor) StdoutLine: {'line': b'byte-compiling /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor/temperature_monitor_node.py to temperature_monitor_node.cpython-312.pyc\n'}
+[13.458240] (temperature_monitor) StdoutLine: {'line': b'running install_data\n'}
+[13.462829] (temperature_monitor) StdoutLine: {'line': b'creating /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index\n'}
+[13.463323] (temperature_monitor) StdoutLine: {'line': b'creating /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index/resource_index\n'}
+[13.463664] (temperature_monitor) StdoutLine: {'line': b'creating /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index/resource_index/packages\n'}
+[13.471814] (temperature_monitor) StdoutLine: {'line': b'copying resource/temperature_monitor -> /home/henrique/ros2_ws/install/temperature_monitor/share/ament_index/resource_index/packages\n'}
+[13.472328] (temperature_monitor) StdoutLine: {'line': b'copying package.xml -> /home/henrique/ros2_ws/install/temperature_monitor/share/temperature_monitor\n'}
+[13.472869] (temperature_monitor) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.531994] (-) TimerEvent: {}
+[13.635829] (-) TimerEvent: {}
+[13.729875] (temperature_monitor) StdoutLine: {'line': b'Copying ../../build/temperature_monitor/temperature_monitor.egg-info to /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor-0.0.0-py3.12.egg-info\n'}
+[13.738954] (temperature_monitor) StdoutLine: {'line': b'running install_scripts\n'}
+[13.739784] (-) TimerEvent: {}
+[13.846861] (-) TimerEvent: {}
+[13.950128] (-) TimerEvent: {}
+[14.053089] (-) TimerEvent: {}
+[14.155047] (-) TimerEvent: {}
+[14.259070] (-) TimerEvent: {}
+[14.359872] (-) TimerEvent: {}
+[14.466900] (-) TimerEvent: {}
+[14.580839] (-) TimerEvent: {}
+[14.682294] (-) TimerEvent: {}
+[14.784186] (-) TimerEvent: {}
+[14.887156] (-) TimerEvent: {}
+[14.988131] (-) TimerEvent: {}
+[15.090762] (-) TimerEvent: {}
+[15.195050] (-) TimerEvent: {}
+[15.297825] (-) TimerEvent: {}
+[15.314637] (temperature_monitor) StdoutLine: {'line': b'Installing monitor_node script to /home/henrique/ros2_ws/install/temperature_monitor/lib/temperature_monitor\n'}
+[15.315818] (temperature_monitor) StdoutLine: {'line': b'Installing publisher_node script to /home/henrique/ros2_ws/install/temperature_monitor/lib/temperature_monitor\n'}
+[15.320379] (temperature_monitor) StdoutLine: {'line': b"writing list of installed files to '/home/henrique/ros2_ws/build/temperature_monitor/install.log'\n"}
+[15.398040] (-) TimerEvent: {}
+[15.499976] (-) TimerEvent: {}
+[15.601852] (-) TimerEvent: {}
+[15.648261] (temperature_monitor) CommandEnded: {'returncode': 0}
+[15.702543] (-) TimerEvent: {}
+[15.791616] (temperature_monitor) JobEnded: {'identifier': 'temperature_monitor', 'rc': 0}
+[15.799253] (-) EventReactorShutdown: {}

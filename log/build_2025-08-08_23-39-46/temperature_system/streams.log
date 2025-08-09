@@ -1,0 +1,26 @@
+[2.367s] Invoking command in '/home/henrique/ros2_ws/src/temperature_system': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temperature_system build --build-base /home/henrique/ros2_ws/build/temperature_system/build install --record /home/henrique/ros2_ws/build/temperature_system/install.log --single-version-externally-managed install_data
+[2.952s] running egg_info
+[2.975s] writing ../../build/temperature_system/temperature_system.egg-info/PKG-INFO
+[2.975s] writing dependency_links to ../../build/temperature_system/temperature_system.egg-info/dependency_links.txt
+[2.978s] writing entry points to ../../build/temperature_system/temperature_system.egg-info/entry_points.txt
+[2.978s] writing requirements to ../../build/temperature_system/temperature_system.egg-info/requires.txt
+[2.978s] writing top-level names to ../../build/temperature_system/temperature_system.egg-info/top_level.txt
+[3.027s] reading manifest file '../../build/temperature_system/temperature_system.egg-info/SOURCES.txt'
+[3.029s] writing manifest file '../../build/temperature_system/temperature_system.egg-info/SOURCES.txt'
+[3.030s] running build
+[3.030s] running build_py
+[3.030s] copying temperature_system/advanced_monitor_node.py -> /home/henrique/ros2_ws/build/temperature_system/build/lib/temperature_system
+[3.032s] running install
+[3.039s] running install_lib
+[3.082s] copying /home/henrique/ros2_ws/build/temperature_system/build/lib/temperature_system/advanced_monitor_node.py -> /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system
+[3.083s] byte-compiling /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system/advanced_monitor_node.py to advanced_monitor_node.cpython-312.pyc
+[3.085s] running install_data
+[3.086s] running install_egg_info
+[3.122s] removing '/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system-0.0.0-py3.12.egg-info' (and everything under it)
+[3.123s] Copying ../../build/temperature_system/temperature_system.egg-info to /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system-0.0.0-py3.12.egg-info
+[3.130s] running install_scripts
+[3.436s] Installing advanced_monitor_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[3.437s] Installing enhanced_publisher_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[3.438s] Installing logger_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[3.438s] writing list of installed files to '/home/henrique/ros2_ws/build/temperature_system/install.log'
+[3.508s] Invoked command in '/home/henrique/ros2_ws/src/temperature_system' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temperature_system build --build-base /home/henrique/ros2_ws/build/temperature_system/build install --record /home/henrique/ros2_ws/build/temperature_system/install.log --single-version-externally-managed install_data

@@ -1,0 +1,31 @@
+[2.469s] Invoking command in '/home/henrique/ros2_ws/src/temperature_system': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temperature_system build --build-base /home/henrique/ros2_ws/build/temperature_system/build install --record /home/henrique/ros2_ws/build/temperature_system/install.log --single-version-externally-managed install_data
+[3.381s] running egg_info
+[3.447s] writing ../../build/temperature_system/temperature_system.egg-info/PKG-INFO
+[3.447s] writing dependency_links to ../../build/temperature_system/temperature_system.egg-info/dependency_links.txt
+[3.447s] writing entry points to ../../build/temperature_system/temperature_system.egg-info/entry_points.txt
+[3.447s] writing requirements to ../../build/temperature_system/temperature_system.egg-info/requires.txt
+[3.448s] writing top-level names to ../../build/temperature_system/temperature_system.egg-info/top_level.txt
+[3.583s] reading manifest file '../../build/temperature_system/temperature_system.egg-info/SOURCES.txt'
+[3.588s] writing manifest file '../../build/temperature_system/temperature_system.egg-info/SOURCES.txt'
+[3.589s] running build
+[3.589s] running build_py
+[3.592s] copying temperature_system/advanced_monitor_node.py -> /home/henrique/ros2_ws/build/temperature_system/build/lib/temperature_system
+[3.597s] running install
+[3.619s] running install_lib
+[3.659s] copying /home/henrique/ros2_ws/build/temperature_system/build/lib/temperature_system/advanced_monitor_node.py -> /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system
+[3.661s] byte-compiling /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system/advanced_monitor_node.py to advanced_monitor_node.cpython-312.pyc
+[3.664s]   File "/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system/advanced_monitor_node.py", line 72
+[3.664s]     print(f' {temperature:.1f}C )
+[3.665s]           ^
+[3.665s] SyntaxError: unterminated f-string literal (detected at line 72)
+[3.665s] 
+[3.667s] running install_data
+[3.667s] running install_egg_info
+[3.736s] removing '/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system-0.0.0-py3.12.egg-info' (and everything under it)
+[3.750s] Copying ../../build/temperature_system/temperature_system.egg-info to /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system-0.0.0-py3.12.egg-info
+[3.750s] running install_scripts
+[4.031s] Installing advanced_monitor_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[4.034s] Installing enhanced_publisher_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[4.034s] Installing logger_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[4.034s] writing list of installed files to '/home/henrique/ros2_ws/build/temperature_system/install.log'
+[4.107s] Invoked command in '/home/henrique/ros2_ws/src/temperature_system' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temperature_system build --build-base /home/henrique/ros2_ws/build/temperature_system/build install --record /home/henrique/ros2_ws/build/temperature_system/install.log --single-version-externally-managed install_data

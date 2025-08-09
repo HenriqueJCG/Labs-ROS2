@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000647] (temperature_monitor) JobQueued: {'identifier': 'temperature_monitor', 'dependencies': OrderedDict()}
+[0.001434] (temperature_monitor) JobStarted: {'identifier': 'temperature_monitor'}
+[0.097509] (-) TimerEvent: {}
+[0.200480] (-) TimerEvent: {}
+[0.303887] (-) TimerEvent: {}
+[0.414635] (-) TimerEvent: {}
+[0.515495] (-) TimerEvent: {}
+[0.616457] (-) TimerEvent: {}
+[0.719141] (-) TimerEvent: {}
+[0.825673] (-) TimerEvent: {}
+[0.929611] (-) TimerEvent: {}
+[1.032268] (-) TimerEvent: {}
+[1.135151] (-) TimerEvent: {}
+[1.237856] (-) TimerEvent: {}
+[1.340123] (-) TimerEvent: {}
+[1.441704] (-) TimerEvent: {}
+[1.547198] (-) TimerEvent: {}
+[1.651221] (-) TimerEvent: {}
+[1.755849] (-) TimerEvent: {}
+[1.862237] (-) TimerEvent: {}
+[1.966653] (-) TimerEvent: {}
+[2.074477] (-) TimerEvent: {}
+[2.176999] (-) TimerEvent: {}
+[2.279159] (-) TimerEvent: {}
+[2.386281] (-) TimerEvent: {}
+[2.486954] (-) TimerEvent: {}
+[2.591700] (-) TimerEvent: {}
+[2.692363] (-) TimerEvent: {}
+[2.793260] (-) TimerEvent: {}
+[2.896676] (-) TimerEvent: {}
+[2.997506] (-) TimerEvent: {}
+[3.109999] (-) TimerEvent: {}
+[3.210643] (-) TimerEvent: {}
+[3.312930] (-) TimerEvent: {}
+[3.416360] (-) TimerEvent: {}
+[3.520790] (-) TimerEvent: {}
+[3.622973] (-) TimerEvent: {}
+[3.731277] (-) TimerEvent: {}
+[3.835653] (-) TimerEvent: {}
+[3.940724] (-) TimerEvent: {}
+[4.041366] (-) TimerEvent: {}
+[4.145232] (-) TimerEvent: {}
+[4.249192] (-) TimerEvent: {}
+[4.350755] (-) TimerEvent: {}
+[4.453612] (-) TimerEvent: {}
+[4.554131] (-) TimerEvent: {}
+[4.656930] (-) TimerEvent: {}
+[4.760809] (-) TimerEvent: {}
+[4.861700] (-) TimerEvent: {}
+[4.964652] (-) TimerEvent: {}
+[5.065806] (-) TimerEvent: {}
+[5.168348] (-) TimerEvent: {}
+[5.272000] (-) TimerEvent: {}
+[5.375095] (-) TimerEvent: {}
+[5.481696] (-) TimerEvent: {}
+[5.582452] (-) TimerEvent: {}
+[5.683422] (-) TimerEvent: {}
+[5.786071] (-) TimerEvent: {}
+[5.889065] (-) TimerEvent: {}
+[5.991421] (-) TimerEvent: {}
+[6.093787] (-) TimerEvent: {}
+[6.194446] (-) TimerEvent: {}
+[6.296275] (-) TimerEvent: {}
+[6.397675] (-) TimerEvent: {}
+[6.498212] (-) TimerEvent: {}
+[6.602084] (-) TimerEvent: {}
+[6.716866] (-) TimerEvent: {}
+[6.819033] (-) TimerEvent: {}
+[6.925890] (-) TimerEvent: {}
+[7.026659] (-) TimerEvent: {}
+[7.129771] (-) TimerEvent: {}
+[7.235989] (-) TimerEvent: {}
+[7.336860] (-) TimerEvent: {}
+[7.437379] (-) TimerEvent: {}
+[7.539966] (-) TimerEvent: {}
+[7.642834] (-) TimerEvent: {}
+[7.746366] (-) TimerEvent: {}
+[7.850775] (-) TimerEvent: {}
+[7.953707] (-) TimerEvent: {}
+[8.057135] (-) TimerEvent: {}
+[8.161665] (-) TimerEvent: {}
+[8.184390] (temperature_monitor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/temperature_monitor', 'build', '--build-base', '/home/henrique/ros2_ws/build/temperature_monitor/build', 'install', '--record', '/home/henrique/ros2_ws/build/temperature_monitor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/henrique/ros2_ws/src/temperature_monitor', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'henrique', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/henrique/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/202/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/henrique', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.102.3', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/202/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/henrique/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/202/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/202/usr/share/code/code', 'MANAGERPID': '1689', 'SYSTEMD_EXEC_PID': '1912', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2994', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/henrique/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'henrique', 'JOURNAL_STREAM': '9:28204', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'henrique', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/henrique-VMware-Virtual-Platform:@/tmp/.ICE-unix/1875,unix/henrique-VMware-Virtual-Platform:/tmp/.ICE-unix/1875', 'GTK_EXE_PREFIX': '/snap/code/202/usr', 'INVOCATION_ID': '22d0b0a671cf4472aa21512fd082ee47', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/202/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/henrique/snap/code/202/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VQ02A3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5c83f94257.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/henrique/snap/code/202/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/henrique/ros2_ws/build/temperature_monitor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/henrique/snap/code/202/.local/share:/home/henrique/snap/code/202:/snap/code/202/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/henrique/ros2_ws/build/temperature_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.265750] (-) TimerEvent: {}
+[8.370397] (-) TimerEvent: {}
+[8.473082] (-) TimerEvent: {}
+[8.575445] (-) TimerEvent: {}
+[8.681695] (-) TimerEvent: {}
+[8.782707] (-) TimerEvent: {}
+[8.883469] (-) TimerEvent: {}
+[8.989806] (-) TimerEvent: {}
+[9.091065] (-) TimerEvent: {}
+[9.193354] (-) TimerEvent: {}
+[9.298961] (-) TimerEvent: {}
+[9.403891] (-) TimerEvent: {}
+[9.505933] (-) TimerEvent: {}
+[9.610630] (-) TimerEvent: {}
+[9.714144] (-) TimerEvent: {}
+[9.818615] (-) TimerEvent: {}
+[9.924326] (-) TimerEvent: {}
+[10.024923] (-) TimerEvent: {}
+[10.128003] (-) TimerEvent: {}
+[10.230236] (-) TimerEvent: {}
+[10.337935] (-) TimerEvent: {}
+[10.438671] (-) TimerEvent: {}
+[10.542865] (-) TimerEvent: {}
+[10.644695] (-) TimerEvent: {}
+[10.749885] (-) TimerEvent: {}
+[10.803694] (temperature_monitor) StdoutLine: {'line': b'running egg_info\n'}
+[10.851641] (-) TimerEvent: {}
+[10.953172] (-) TimerEvent: {}
+[11.062681] (-) TimerEvent: {}
+[11.119276] (temperature_monitor) StdoutLine: {'line': b'writing ../../build/temperature_monitor/temperature_monitor.egg-info/PKG-INFO\n'}
+[11.121195] (temperature_monitor) StdoutLine: {'line': b'writing dependency_links to ../../build/temperature_monitor/temperature_monitor.egg-info/dependency_links.txt\n'}
+[11.125234] (temperature_monitor) StdoutLine: {'line': b'writing entry points to ../../build/temperature_monitor/temperature_monitor.egg-info/entry_points.txt\n'}
+[11.127571] (temperature_monitor) StdoutLine: {'line': b'writing requirements to ../../build/temperature_monitor/temperature_monitor.egg-info/requires.txt\n'}
+[11.131619] (temperature_monitor) StdoutLine: {'line': b'writing top-level names to ../../build/temperature_monitor/temperature_monitor.egg-info/top_level.txt\n'}
+[11.162868] (-) TimerEvent: {}
+[11.267658] (-) TimerEvent: {}
+[11.370927] (-) TimerEvent: {}
+[11.475141] (-) TimerEvent: {}
+[11.579024] (-) TimerEvent: {}
+[11.586893] (temperature_monitor) StdoutLine: {'line': b"reading manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'\n"}
+[11.595032] (temperature_monitor) StdoutLine: {'line': b"writing manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'\n"}
+[11.597883] (temperature_monitor) StdoutLine: {'line': b'running build\n'}
+[11.599579] (temperature_monitor) StdoutLine: {'line': b'running build_py\n'}
+[11.603224] (temperature_monitor) StdoutLine: {'line': b'running install\n'}
+[11.661425] (temperature_monitor) StdoutLine: {'line': b'running install_lib\n'}
+[11.679156] (-) TimerEvent: {}
+[11.781968] (-) TimerEvent: {}
+[11.856808] (temperature_monitor) StdoutLine: {'line': b'running install_data\n'}
+[11.858964] (temperature_monitor) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.882115] (-) TimerEvent: {}
+[11.987210] (-) TimerEvent: {}
+[12.046671] (temperature_monitor) StdoutLine: {'line': b"removing '/home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[12.066677] (temperature_monitor) StdoutLine: {'line': b'Copying ../../build/temperature_monitor/temperature_monitor.egg-info to /home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages/temperature_monitor-0.0.0-py3.12.egg-info\n'}
+[12.075715] (temperature_monitor) StdoutLine: {'line': b'running install_scripts\n'}
+[12.087419] (-) TimerEvent: {}
+[12.192710] (-) TimerEvent: {}
+[12.293383] (-) TimerEvent: {}
+[12.395673] (-) TimerEvent: {}
+[12.496385] (-) TimerEvent: {}
+[12.597846] (-) TimerEvent: {}
+[12.710433] (-) TimerEvent: {}
+[12.811682] (-) TimerEvent: {}
+[12.915904] (-) TimerEvent: {}
+[13.020299] (-) TimerEvent: {}
+[13.122767] (-) TimerEvent: {}
+[13.231039] (-) TimerEvent: {}
+[13.341680] (-) TimerEvent: {}
+[13.419482] (temperature_monitor) StdoutLine: {'line': b'Installing monitor_node script to /home/henrique/ros2_ws/install/temperature_monitor/lib/temperature_monitor\n'}
+[13.424849] (temperature_monitor) StdoutLine: {'line': b'Installing publisher_node script to /home/henrique/ros2_ws/install/temperature_monitor/lib/temperature_monitor\n'}
+[13.431718] (temperature_monitor) StdoutLine: {'line': b"writing list of installed files to '/home/henrique/ros2_ws/build/temperature_monitor/install.log'\n"}
+[13.441805] (-) TimerEvent: {}
+[13.544165] (-) TimerEvent: {}
+[13.600809] (temperature_monitor) CommandEnded: {'returncode': 0}
+[13.644305] (-) TimerEvent: {}
+[13.696371] (temperature_monitor) JobEnded: {'identifier': 'temperature_monitor', 'rc': 0}
+[13.706164] (-) EventReactorShutdown: {}

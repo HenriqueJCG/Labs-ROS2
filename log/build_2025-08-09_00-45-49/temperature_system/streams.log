@@ -1,0 +1,20 @@
+[2.400s] Invoking command in '/home/henrique/ros2_ws/build/temperature_system': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/henrique/ros2_ws/build/temperature_system/build --no-deps symlink_data
+[3.125s] running develop
+[3.630s] running egg_info
+[3.649s] writing temperature_system.egg-info/PKG-INFO
+[3.650s] writing dependency_links to temperature_system.egg-info/dependency_links.txt
+[3.652s] writing entry points to temperature_system.egg-info/entry_points.txt
+[3.652s] writing requirements to temperature_system.egg-info/requires.txt
+[3.653s] writing top-level names to temperature_system.egg-info/top_level.txt
+[3.713s] reading manifest file 'temperature_system.egg-info/SOURCES.txt'
+[3.715s] writing manifest file 'temperature_system.egg-info/SOURCES.txt'
+[3.748s] running build_ext
+[3.750s] Creating /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature-system.egg-link (link to .)
+[3.751s] Installing advanced_monitor_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[3.753s] Installing enhanced_publisher_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[3.754s] Installing logger_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[3.754s] 
+[3.754s] Installed /home/henrique/ros2_ws/build/temperature_system
+[3.755s] running symlink_data
+[3.757s] error: can't copy '/home/henrique/ros2_ws/build/temperature_system/launch.py': doesn't exist or not a regular file
+[3.836s] Invoked command in '/home/henrique/ros2_ws/build/temperature_system' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/henrique/ros2_ws/build/temperature_system/build --no-deps symlink_data

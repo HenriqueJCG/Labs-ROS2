@@ -1,0 +1,23 @@
+[2.701s] Invoking command in '/home/henrique/ros2_ws/build/temperature_system': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/henrique/ros2_ws/build/temperature_system/build --no-deps symlink_data --force
+[3.584s] running develop
+[3.951s] running egg_info
+[3.975s] writing temperature_system.egg-info/PKG-INFO
+[3.977s] writing dependency_links to temperature_system.egg-info/dependency_links.txt
+[3.977s] writing entry points to temperature_system.egg-info/entry_points.txt
+[3.978s] writing requirements to temperature_system.egg-info/requires.txt
+[3.978s] writing top-level names to temperature_system.egg-info/top_level.txt
+[4.067s] reading manifest file 'temperature_system.egg-info/SOURCES.txt'
+[4.068s] writing manifest file 'temperature_system.egg-info/SOURCES.txt'
+[4.118s] running build_ext
+[4.123s] Creating /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature-system.egg-link (link to .)
+[4.124s] Installing advanced_monitor_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[4.127s] Installing enhanced_publisher_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[4.128s] Installing logger_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[4.129s] 
+[4.129s] Installed /home/henrique/ros2_ws/build/temperature_system
+[4.129s] running symlink_data
+[4.129s] symbolically linking /home/henrique/ros2_ws/build/temperature_system/resource/temperature_system -> /home/henrique/ros2_ws/install/temperature_system/share/ament_index/resource_index/packages
+[4.129s] symbolically linking /home/henrique/ros2_ws/build/temperature_system/package.xml -> /home/henrique/ros2_ws/install/temperature_system/share/temperature_system
+[4.129s] creating /home/henrique/ros2_ws/install/temperature_system/share/temperature_system/launch
+[4.129s] error: [Errno 2] No such file or directory: '/home/henrique/ros2_ws/install/temperature_system/share/temperature_system/launch/launch.py'
+[4.197s] Invoked command in '/home/henrique/ros2_ws/build/temperature_system' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/henrique/ros2_ws/build/temperature_system/build --no-deps symlink_data --force

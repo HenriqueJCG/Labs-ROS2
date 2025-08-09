@@ -1,0 +1,19 @@
+[1.721s] Invoking command in '/home/henrique/ros2_ws/build/temperature_system': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/henrique/ros2_ws/build/temperature_system/build --no-deps symlink_data
+[2.368s] running develop
+[2.698s] running egg_info
+[2.727s] writing temperature_system.egg-info/PKG-INFO
+[2.727s] writing dependency_links to temperature_system.egg-info/dependency_links.txt
+[2.728s] writing entry points to temperature_system.egg-info/entry_points.txt
+[2.728s] writing requirements to temperature_system.egg-info/requires.txt
+[2.728s] writing top-level names to temperature_system.egg-info/top_level.txt
+[2.787s] reading manifest file 'temperature_system.egg-info/SOURCES.txt'
+[2.793s] writing manifest file 'temperature_system.egg-info/SOURCES.txt'
+[2.869s] running build_ext
+[2.871s] Creating /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature-system.egg-link (link to .)
+[2.876s] Installing advanced_monitor_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[2.876s] Installing enhanced_publisher_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[2.876s] Installing logger_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+[2.877s] 
+[2.877s] Installed /home/henrique/ros2_ws/build/temperature_system
+[2.877s] running symlink_data
+[2.962s] Invoked command in '/home/henrique/ros2_ws/build/temperature_system' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/henrique/ros2_ws/build/temperature_system/build --no-deps symlink_data

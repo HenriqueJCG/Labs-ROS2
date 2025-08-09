@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing temperature_system.egg-info/PKG-INFO
+writing dependency_links to temperature_system.egg-info/dependency_links.txt
+writing entry points to temperature_system.egg-info/entry_points.txt
+writing requirements to temperature_system.egg-info/requires.txt
+writing top-level names to temperature_system.egg-info/top_level.txt
+reading manifest file 'temperature_system.egg-info/SOURCES.txt'
+writing manifest file 'temperature_system.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature-system.egg-link (link to .)
+Installing advanced_monitor_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+Installing enhanced_publisher_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+Installing logger_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system
+
+Installed /home/henrique/ros2_ws/build/temperature_system
+running symlink_data
+symbolically linking /home/henrique/ros2_ws/build/temperature_system/resource/temperature_system -> /home/henrique/ros2_ws/install/temperature_system/share/ament_index/resource_index/packages
+symbolically linking /home/henrique/ros2_ws/build/temperature_system/package.xml -> /home/henrique/ros2_ws/install/temperature_system/share/temperature_system
+creating /home/henrique/ros2_ws/install/temperature_system/share/temperature_system/launch
+error: [Errno 2] No such file or directory: '/home/henrique/ros2_ws/install/temperature_system/share/temperature_system/launch/launch.py'
