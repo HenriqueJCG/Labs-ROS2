@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (-) JobUnselected: {'identifier': 'simple_robot_description'}
+[0.000654] (-) JobUnselected: {'identifier': 'temperature_monitor'}
+[0.000775] (temperature_system) JobQueued: {'identifier': 'temperature_system', 'dependencies': OrderedDict()}
+[0.000926] (temperature_system) JobStarted: {'identifier': 'temperature_system'}
+[0.097694] (-) TimerEvent: {}
+[0.201850] (-) TimerEvent: {}
+[0.304042] (-) TimerEvent: {}
+[0.408109] (-) TimerEvent: {}
+[0.509724] (-) TimerEvent: {}
+[0.611026] (-) TimerEvent: {}
+[0.715378] (-) TimerEvent: {}
+[0.817091] (-) TimerEvent: {}
+[0.919224] (-) TimerEvent: {}
+[1.026057] (-) TimerEvent: {}
+[1.127890] (-) TimerEvent: {}
+[1.229818] (-) TimerEvent: {}
+[1.333954] (-) TimerEvent: {}
+[1.435645] (-) TimerEvent: {}
+[1.537278] (-) TimerEvent: {}
+[1.638613] (-) TimerEvent: {}
+[1.740863] (-) TimerEvent: {}
+[1.842785] (-) TimerEvent: {}
+[1.947494] (-) TimerEvent: {}
+[2.052665] (-) TimerEvent: {}
+[2.153860] (-) TimerEvent: {}
+[2.255556] (-) TimerEvent: {}
+[2.360983] (-) TimerEvent: {}
+[2.463070] (-) TimerEvent: {}
+[2.567828] (-) TimerEvent: {}
+[2.670071] (-) TimerEvent: {}
+[2.775829] (-) TimerEvent: {}
+[2.877752] (-) TimerEvent: {}
+[2.979773] (-) TimerEvent: {}
+[3.081758] (-) TimerEvent: {}
+[3.186815] (-) TimerEvent: {}
+[3.291324] (-) TimerEvent: {}
+[3.393922] (-) TimerEvent: {}
+[3.496895] (-) TimerEvent: {}
+[3.601962] (-) TimerEvent: {}
+[3.706907] (-) TimerEvent: {}
+[3.808730] (-) TimerEvent: {}
+[3.913902] (-) TimerEvent: {}
+[4.015119] (-) TimerEvent: {}
+[4.117807] (-) TimerEvent: {}
+[4.219771] (-) TimerEvent: {}
+[4.323392] (-) TimerEvent: {}
+[4.429242] (-) TimerEvent: {}
+[4.532891] (-) TimerEvent: {}
+[4.635805] (-) TimerEvent: {}
+[4.739698] (-) TimerEvent: {}
+[4.843107] (-) TimerEvent: {}
+[4.947710] (-) TimerEvent: {}
+[5.052250] (-) TimerEvent: {}
+[5.156071] (-) TimerEvent: {}
+[5.260945] (-) TimerEvent: {}
+[5.364555] (-) TimerEvent: {}
+[5.465744] (-) TimerEvent: {}
+[5.566631] (-) TimerEvent: {}
+[5.668196] (-) TimerEvent: {}
+[5.770342] (-) TimerEvent: {}
+[5.871667] (-) TimerEvent: {}
+[5.973615] (-) TimerEvent: {}
+[6.075726] (-) TimerEvent: {}
+[6.177901] (-) TimerEvent: {}
+[6.211307] (temperature_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/henrique/ros2_ws/build/temperature_system/build'], 'cwd': '/home/henrique/ros2_ws/build/temperature_system', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'henrique', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/henrique', 'OLDPWD': '/home/henrique', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1893', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/henrique/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'henrique', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'henrique', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/henrique-VMware-Virtual-Platform:@/tmp/.ICE-unix/1859,unix/henrique-VMware-Virtual-Platform:/tmp/.ICE-unix/1859', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/55067478_33b7_4e90_9f5f_176242d17786', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J8N3A3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.375', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/home/henrique/ros2_ws/install/simple_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/henrique/ros2_ws/build/temperature_system', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:/home/henrique/ros2_ws/build/temperature_system:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:/home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/henrique/ros2_ws/install/simple_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.278376] (-) TimerEvent: {}
+[6.379288] (-) TimerEvent: {}
+[6.480230] (-) TimerEvent: {}
+[6.582633] (-) TimerEvent: {}
+[6.687148] (-) TimerEvent: {}
+[6.792103] (-) TimerEvent: {}
+[6.893348] (-) TimerEvent: {}
+[7.004687] (-) TimerEvent: {}
+[7.114919] (-) TimerEvent: {}
+[7.216156] (-) TimerEvent: {}
+[7.244819] (temperature_system) StdoutLine: {'line': b'running develop\n'}
+[7.316450] (-) TimerEvent: {}
+[7.417337] (-) TimerEvent: {}
+[7.520897] (-) TimerEvent: {}
+[7.621887] (-) TimerEvent: {}
+[7.725552] (-) TimerEvent: {}
+[7.826283] (-) TimerEvent: {}
+[7.929967] (-) TimerEvent: {}
+[8.031769] (-) TimerEvent: {}
+[8.136029] (-) TimerEvent: {}
+[8.145886] (temperature_system) StdoutLine: {'line': b'Removing /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature-system.egg-link (link to .)\n'}
+[8.231795] (temperature_system) CommandEnded: {'returncode': 0}
+[8.236069] (temperature_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/temperature_system', 'build', '--build-base', '/home/henrique/ros2_ws/build/temperature_system/build', 'install', '--record', '/home/henrique/ros2_ws/build/temperature_system/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/henrique/ros2_ws/src/temperature_system', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'henrique', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/henrique', 'OLDPWD': '/home/henrique', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1893', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/henrique/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'henrique', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'henrique', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/henrique-VMware-Virtual-Platform:@/tmp/.ICE-unix/1859,unix/henrique-VMware-Virtual-Platform:/tmp/.ICE-unix/1859', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/55067478_33b7_4e90_9f5f_176242d17786', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J8N3A3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.375', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/home/henrique/ros2_ws/install/simple_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/henrique/ros2_ws/build/temperature_system', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/henrique/ros2_ws/build/temperature_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:/home/henrique/ros2_ws/build/temperature_system:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:/home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/henrique/ros2_ws/install/simple_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.237151] (-) TimerEvent: {}
+[8.343013] (-) TimerEvent: {}
+[8.444662] (-) TimerEvent: {}
+[8.545533] (-) TimerEvent: {}
+[8.649830] (-) TimerEvent: {}
+[8.751775] (-) TimerEvent: {}
+[8.854876] (-) TimerEvent: {}
+[8.955834] (-) TimerEvent: {}
+[9.056815] (-) TimerEvent: {}
+[9.155915] (temperature_system) StdoutLine: {'line': b'running egg_info\n'}
+[9.157234] (-) TimerEvent: {}
+[9.203210] (temperature_system) StdoutLine: {'line': b'writing ../../build/temperature_system/temperature_system.egg-info/PKG-INFO\n'}
+[9.204496] (temperature_system) StdoutLine: {'line': b'writing dependency_links to ../../build/temperature_system/temperature_system.egg-info/dependency_links.txt\n'}
+[9.205699] (temperature_system) StdoutLine: {'line': b'writing entry points to ../../build/temperature_system/temperature_system.egg-info/entry_points.txt\n'}
+[9.207007] (temperature_system) StdoutLine: {'line': b'writing requirements to ../../build/temperature_system/temperature_system.egg-info/requires.txt\n'}
+[9.208029] (temperature_system) StdoutLine: {'line': b'writing top-level names to ../../build/temperature_system/temperature_system.egg-info/top_level.txt\n'}
+[9.257788] (-) TimerEvent: {}
+[9.323018] (temperature_system) StdoutLine: {'line': b"reading manifest file '../../build/temperature_system/temperature_system.egg-info/SOURCES.txt'\n"}
+[9.328093] (temperature_system) StdoutLine: {'line': b"writing manifest file '../../build/temperature_system/temperature_system.egg-info/SOURCES.txt'\n"}
+[9.330953] (temperature_system) StdoutLine: {'line': b'running build\n'}
+[9.332386] (temperature_system) StdoutLine: {'line': b'running build_py\n'}
+[9.334556] (temperature_system) StdoutLine: {'line': b'copying temperature_system/logger_node.py -> /home/henrique/ros2_ws/build/temperature_system/build/lib/temperature_system\n'}
+[9.335607] (temperature_system) StdoutLine: {'line': b'running install\n'}
+[9.343747] (temperature_system) StdoutLine: {'line': b'running install_lib\n'}
+[9.358219] (-) TimerEvent: {}
+[9.397775] (temperature_system) StdoutLine: {'line': b'creating /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system\n'}
+[9.398712] (temperature_system) StdoutLine: {'line': b'copying /home/henrique/ros2_ws/build/temperature_system/build/lib/temperature_system/advanced_monitor_node.py -> /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system\n'}
+[9.400826] (temperature_system) StdoutLine: {'line': b'copying /home/henrique/ros2_ws/build/temperature_system/build/lib/temperature_system/__init__.py -> /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system\n'}
+[9.402771] (temperature_system) StdoutLine: {'line': b'copying /home/henrique/ros2_ws/build/temperature_system/build/lib/temperature_system/logger_node.py -> /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system\n'}
+[9.403062] (temperature_system) StdoutLine: {'line': b'copying /home/henrique/ros2_ws/build/temperature_system/build/lib/temperature_system/enhanced_publisher_node.py -> /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system\n'}
+[9.406123] (temperature_system) StdoutLine: {'line': b'byte-compiling /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system/advanced_monitor_node.py to advanced_monitor_node.cpython-312.pyc\n'}
+[9.410960] (temperature_system) StdoutLine: {'line': b'byte-compiling /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system/__init__.py to __init__.cpython-312.pyc\n'}
+[9.414368] (temperature_system) StdoutLine: {'line': b'byte-compiling /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system/logger_node.py to logger_node.cpython-312.pyc\n'}
+[9.419052] (temperature_system) StdoutLine: {'line': b'byte-compiling /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system/enhanced_publisher_node.py to enhanced_publisher_node.cpython-312.pyc\n'}
+[9.421656] (temperature_system) StdoutLine: {'line': b'running install_data\n'}
+[9.424889] (temperature_system) StdoutLine: {'line': b'copying resource/temperature_system -> /home/henrique/ros2_ws/install/temperature_system/share/ament_index/resource_index/packages\n'}
+[9.430971] (temperature_system) StdoutLine: {'line': b'copying package.xml -> /home/henrique/ros2_ws/install/temperature_system/share/temperature_system\n'}
+[9.433990] (temperature_system) StdoutLine: {'line': b'copying launch/launch.py -> /home/henrique/ros2_ws/install/temperature_system/share/temperature_system/launch\n'}
+[9.434900] (temperature_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.458583] (-) TimerEvent: {}
+[9.492984] (temperature_system) StdoutLine: {'line': b'Copying ../../build/temperature_system/temperature_system.egg-info to /home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages/temperature_system-0.0.0-py3.12.egg-info\n'}
+[9.498754] (temperature_system) StdoutLine: {'line': b'running install_scripts\n'}
+[9.559078] (-) TimerEvent: {}
+[9.666771] (-) TimerEvent: {}
+[9.769302] (-) TimerEvent: {}
+[9.874392] (-) TimerEvent: {}
+[9.975643] (-) TimerEvent: {}
+[10.076579] (-) TimerEvent: {}
+[10.152879] (temperature_system) StdoutLine: {'line': b'Installing advanced_monitor_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system\n'}
+[10.156590] (temperature_system) StdoutLine: {'line': b'Installing enhanced_publisher_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system\n'}
+[10.156996] (temperature_system) StdoutLine: {'line': b'Installing logger_node script to /home/henrique/ros2_ws/install/temperature_system/lib/temperature_system\n'}
+[10.158629] (temperature_system) StdoutLine: {'line': b"writing list of installed files to '/home/henrique/ros2_ws/build/temperature_system/install.log'\n"}
+[10.177189] (-) TimerEvent: {}
+[10.209262] (temperature_system) CommandEnded: {'returncode': 0}
+[10.273824] (temperature_system) JobEnded: {'identifier': 'temperature_system', 'rc': 0}
+[10.284950] (-) TimerEvent: {}
+[10.285988] (-) EventReactorShutdown: {}

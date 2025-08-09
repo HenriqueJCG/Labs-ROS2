@@ -1,1 +1,0 @@
-/home/henrique/ros2_ws/src/temperature_system/setup.py
