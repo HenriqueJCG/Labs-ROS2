@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Up-to-date: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/urdf
+-- Up-to-date: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/urdf/simple_robot.urdf
+-- Up-to-date: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/launch
+-- Up-to-date: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/launch/display.launch.py
+-- Up-to-date: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/rviz
+-- Up-to-date: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/rviz/urdf_config.rviz
+-- Up-to-date: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/config
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/worlds
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/ament_index/resource_index/package_run_dependencies/simple_robot_description
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/ament_index/resource_index/parent_prefix_path/simple_robot_description
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/environment/ament_prefix_path.sh
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/environment/path.sh
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/environment/path.dsv
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/local_setup.bash
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/local_setup.sh
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/local_setup.zsh
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/local_setup.dsv
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.dsv
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/ament_index/resource_index/packages/simple_robot_description
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/cmake/simple_robot_descriptionConfig.cmake
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/cmake/simple_robot_descriptionConfig-version.cmake
+-- Installing: /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.xml
