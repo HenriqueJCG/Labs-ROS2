@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.001049] (-) JobUnselected: {'identifier': 'simple_robot_description'}
+[0.001093] (-) JobUnselected: {'identifier': 'simple_robot_description'}
+[0.001113] (-) JobUnselected: {'identifier': 'temperature_monitor'}
+[0.001128] (-) JobUnselected: {'identifier': 'temperature_system'}
+[0.001142] (-) EventReactorShutdown: {}

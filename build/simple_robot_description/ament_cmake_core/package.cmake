@@ -5,7 +5,7 @@ set(simple_robot_description_BUILD_DEPENDS "urdf" "xacro" "robot_state_publisher
 set(simple_robot_description_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake")
 set(simple_robot_description_BUILD_EXPORT_DEPENDS "urdf" "xacro" "robot_state_publisher" "joint_state_publisher" "joint_state_publisher_gui" "gazebo_ros" "rviz2")
 set(simple_robot_description_BUILDTOOL_EXPORT_DEPENDS )
-set(simple_robot_description_EXEC_DEPENDS "ros2launch" "urdf" "xacro" "robot_state_publisher" "joint_state_publisher" "joint_state_publisher_gui" "gazebo_ros" "rviz2")
+set(simple_robot_description_EXEC_DEPENDS "ros2launch" "teleop_twist_keyboard" "xterm" "urdf" "xacro" "robot_state_publisher" "joint_state_publisher" "joint_state_publisher_gui" "gazebo_ros" "rviz2")
 set(simple_robot_description_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(simple_robot_description_GROUP_DEPENDS )
 set(simple_robot_description_MEMBER_OF_GROUPS )

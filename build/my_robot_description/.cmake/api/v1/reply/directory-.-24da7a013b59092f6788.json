@@ -42,7 +42,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 31,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
@@ -226,7 +226,7 @@
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description",
+			"destination" : "share/my_robot_description",
 			"paths" : 
 			[
 				"urdf",
@@ -243,7 +243,7 @@
 			"destination" : "share/ament_index/resource_index/package_run_dependencies",
 			"paths" : 
 			[
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/simple_robot_description"
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_description"
 			],
 			"type" : "file"
 		},
@@ -253,14 +253,14 @@
 			"destination" : "share/ament_index/resource_index/parent_prefix_path",
 			"paths" : 
 			[
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/simple_robot_description"
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_robot_description"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 15,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description/environment",
+			"destination" : "share/my_robot_description/environment",
 			"paths" : 
 			[
 				"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
@@ -270,17 +270,17 @@
 		{
 			"backtrace" : 16,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description/environment",
+			"destination" : "share/my_robot_description/environment",
 			"paths" : 
 			[
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 17,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description/environment",
+			"destination" : "share/my_robot_description/environment",
 			"paths" : 
 			[
 				"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
@@ -290,60 +290,60 @@
 		{
 			"backtrace" : 18,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description/environment",
+			"destination" : "share/my_robot_description/environment",
 			"paths" : 
 			[
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_environment_hooks/path.dsv"
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_environment_hooks/path.dsv"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 20,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description",
+			"destination" : "share/my_robot_description",
 			"paths" : 
 			[
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_environment_hooks/local_setup.bash"
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_environment_hooks/local_setup.bash"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 21,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description",
+			"destination" : "share/my_robot_description",
 			"paths" : 
 			[
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_environment_hooks/local_setup.sh"
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_environment_hooks/local_setup.sh"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 22,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description",
+			"destination" : "share/my_robot_description",
 			"paths" : 
 			[
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_environment_hooks/local_setup.zsh"
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_environment_hooks/local_setup.zsh"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 23,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description",
+			"destination" : "share/my_robot_description",
 			"paths" : 
 			[
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_environment_hooks/local_setup.dsv"
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_environment_hooks/local_setup.dsv"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 24,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description",
+			"destination" : "share/my_robot_description",
 			"paths" : 
 			[
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_environment_hooks/package.dsv"
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_environment_hooks/package.dsv"
 			],
 			"type" : "file"
 		},
@@ -353,25 +353,25 @@
 			"destination" : "share/ament_index/resource_index/packages",
 			"paths" : 
 			[
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_index/share/ament_index/resource_index/packages/simple_robot_description"
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_index/share/ament_index/resource_index/packages/my_robot_description"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 31,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description/cmake",
+			"destination" : "share/my_robot_description/cmake",
 			"paths" : 
 			[
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_core/simple_robot_descriptionConfig.cmake",
-				"/home/henrique/ros2_ws/build/simple_robot_description/ament_cmake_core/simple_robot_descriptionConfig-version.cmake"
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_core/my_robot_descriptionConfig.cmake",
+				"/home/henrique/ros2_ws/build/my_robot_description/ament_cmake_core/my_robot_descriptionConfig-version.cmake"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 32,
 			"component" : "Unspecified",
-			"destination" : "share/simple_robot_description",
+			"destination" : "share/my_robot_description",
 			"paths" : 
 			[
 				"package.xml"

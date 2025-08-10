@@ -49,6 +49,7 @@ def generate_launch_description():
         package='temperature_system',  
         executable='enhanced_publisher_node',  
         name='enhanced_tpublisher_node',
+        prefix='xterm -e', 
         parameters=[{
             'minimum_temp': LaunchConfiguration('minimum_temp'),
             'maximum_temp': LaunchConfiguration('maximum_temp'),
@@ -60,9 +61,10 @@ def generate_launch_description():
         package='temperature_system',  
         executable='advanced_monitor_node',  
         name='advanced_monitor_node',
+        prefix='xterm -e', 
         parameters=[{
             'warning_temperature_threshold': LaunchConfiguration('warning_temperature_threshold'),
-            'critical_temperature_threshold_': LaunchConfiguration('critical_temperature_threshold')
+            'critical_temperature_threshold': LaunchConfiguration('critical_temperature_threshold')
         }]
     )
 
@@ -70,6 +72,7 @@ def generate_launch_description():
         package='temperature_system',  
         executable='logger_node',  
         name='enhanced_temperature_sensor',
+        prefix='xterm -e', 
         parameters=[{
             'log_frequency': LaunchConfiguration('log_frequency')
         }]

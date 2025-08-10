@@ -1,7 +1,7 @@
 # Labs-ROS2
 Repository for labs of ROS2 training, using Ubuntu 24.04, ROS2 Jazzy LTS and Gazebo Harmonic.
 
-### Lab1 - src/temperature_monitor | src/temperature_system
+### Lab1 - src/temperature_monitor and src/temperature_system
 
 **Challenge:**
 
@@ -15,8 +15,18 @@ Repository for labs of ROS2 training, using Ubuntu 24.04, ROS2 Jazzy LTS and Gaz
 Every *log_frequency* readings, the temperature value and timestamp is logged in a file.
 
 
-Use ros2 launch temperature_system launch.py to run, or run each node in different windows.
+Use ros2 launch temperature_system launch.py to run, needs xterm installed to run.
 
-### Lab2 - src/simple_robot_description
+### Lab2 - src/simple_robot_description and src/my_robot_description
 
 **Challenge:**
+
+my_robot_gazebo.urdf 
+
+gazebo.launch.py
+
+
+### Lab3 - /launch/include/ and /launch/robot_complete.launch.py
+
+**Challenge:**
+

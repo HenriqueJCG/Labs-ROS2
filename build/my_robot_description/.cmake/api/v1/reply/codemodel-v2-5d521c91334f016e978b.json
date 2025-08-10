@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-78a7f4401c0d70358b3e.json",
+					"jsonFile" : "directory-.-24da7a013b59092f6788.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -29,7 +29,7 @@
 					[
 						0
 					],
-					"name" : "simple_robot_description",
+					"name" : "my_robot_description",
 					"targetIndexes" : 
 					[
 						0,
@@ -41,15 +41,15 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "simple_robot_description_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-simple_robot_description_uninstall-fc073cddaf87d8b09d61.json",
-					"name" : "simple_robot_description_uninstall",
+					"id" : "my_robot_description_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_description_uninstall-ba9250f5ac7a7ee1505a.json",
+					"name" : "my_robot_description_uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uninstall-a0fb0601083c5dcc8ac4.json",
+					"jsonFile" : "target-uninstall-ed6b27576c1378de7f14.json",
 					"name" : "uninstall",
 					"projectIndex" : 0
 				}
@@ -59,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/henrique/ros2_ws/build/simple_robot_description",
-		"source" : "/home/henrique/ros2_ws/src/simple_robot_description"
+		"build" : "/home/henrique/ros2_ws/build/my_robot_description",
+		"source" : "/home/henrique/ros2_ws/src/my_robot_description"
 	},
 	"version" : 
 	{

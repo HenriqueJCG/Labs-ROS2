@@ -1,0 +1,38 @@
+[0.087s] Invoking command in '/home/henrique/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/henrique/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/henrique/ros2_ws/install/my_robot_description
+[3.884s] -- The C compiler identification is GNU 13.3.0
+[4.798s] -- The CXX compiler identification is GNU 13.3.0
+[4.934s] -- Detecting C compiler ABI info
+[6.025s] -- Detecting C compiler ABI info - done
+[6.050s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.052s] -- Detecting C compile features
+[6.054s] -- Detecting C compile features - done
+[6.099s] -- Detecting CXX compiler ABI info
+[6.665s] -- Detecting CXX compiler ABI info - done
+[6.687s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.688s] -- Detecting CXX compile features
+[6.689s] -- Detecting CXX compile features - done
+[6.834s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.490s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.038s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.922s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.922s] -- Configured 'flake8' exclude dirs and/or files: 
+[8.932s] -- Added test 'lint_cmake' to check CMake code style
+[8.944s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.955s] -- Added test 'xmllint' to check XML markup files
+[8.972s] -- Configuring done (8.2s)
+[9.013s] -- Generating done (0.0s)
+[9.055s] -- Build files have been written to: /home/henrique/ros2_ws/build/my_robot_description
+[9.150s] Invoked command in '/home/henrique/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/henrique/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/henrique/ros2_ws/install/my_robot_description
+[9.151s] Invoking command in '/home/henrique/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/ros2_ws/build/my_robot_description -- -j2 -l2
+[9.424s] Invoked command in '/home/henrique/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/ros2_ws/build/my_robot_description -- -j2 -l2
+[9.507s] Invoking command in '/home/henrique/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/ros2_ws/build/my_robot_description
+[9.564s] -- Install configuration: ""
+[9.566s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/urdf
+[9.568s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/my_robot_gazebo.urdf
+[9.574s] [31mCMake Error at cmake_install.cmake:46 (file):
+[9.574s]   file INSTALL cannot find
+[9.574s]   "/home/henrique/ros2_ws/src/my_robot_description/launch/include": No such
+[9.574s]   file or directory.
+[9.574s] 
+[9.574s] [0m
+[9.579s] Invoked command in '/home/henrique/ros2_ws/build/my_robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/ros2_ws/build/my_robot_description

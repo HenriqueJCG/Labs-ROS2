@@ -1,0 +1,42 @@
+[0.028s] Invoking command in '/home/henrique/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/ros2_ws/build/my_robot_description -- -j2 -l2
+[0.077s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.864s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.292s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.292s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.292s] -- Added test 'lint_cmake' to check CMake code style
+[1.292s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.292s] -- Added test 'xmllint' to check XML markup files
+[1.293s] -- Configuring done (1.2s)
+[1.293s] -- Generating done (0.0s)
+[1.293s] -- Build files have been written to: /home/henrique/ros2_ws/build/my_robot_description
+[1.372s] Invoked command in '/home/henrique/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/ros2_ws/build/my_robot_description -- -j2 -l2
+[1.413s] Invoking command in '/home/henrique/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/ros2_ws/build/my_robot_description
+[1.451s] -- Install configuration: ""
+[1.453s] -- Up-to-date: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/urdf
+[1.455s] -- Up-to-date: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/my_robot_gazebo.urdf
+[1.457s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch
+[1.457s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch/gazebo.launch.py
+[1.461s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/rviz
+[1.461s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/rviz/urdf_config_nogazebo.rviz
+[1.462s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/rviz/urdf_config.rviz
+[1.462s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/config
+[1.464s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/config/gz_bridge.yaml
+[1.468s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/worlds
+[1.468s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/worlds/diff_drive
+[1.468s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/worlds/diff_drive/diff_drive.sdf
+[1.473s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[1.479s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[1.483s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[1.483s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[1.487s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[1.488s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[1.489s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[1.493s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[1.496s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[1.496s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[1.503s] -- Up-to-date: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[1.505s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[1.514s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[1.514s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[1.514s] -- Installing: /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml
+[1.522s] Invoked command in '/home/henrique/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/ros2_ws/build/my_robot_description

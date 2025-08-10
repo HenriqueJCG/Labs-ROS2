@@ -45,6 +45,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simple_robot_description" TYPE DIRECTORY FILES
     "/home/henrique/ros2_ws/src/simple_robot_description/urdf"
+    "/home/henrique/ros2_ws/src/simple_robot_description/launch/include"
     "/home/henrique/ros2_ws/src/simple_robot_description/launch"
     "/home/henrique/ros2_ws/src/simple_robot_description/rviz"
     "/home/henrique/ros2_ws/src/simple_robot_description/config"
