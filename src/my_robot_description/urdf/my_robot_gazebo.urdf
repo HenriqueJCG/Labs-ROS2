@@ -273,6 +273,7 @@
 
   <gazebo reference="camera_link">
     <sensor name="camera" type="camera">
+
       <update_rate>10.0</update_rate>
       <camera>
         <camera_info_topic>camera/camera_info</camera_info_topic>
@@ -288,6 +289,7 @@
         </clip>
       </camera>
       <topic>camera/image_raw</topic>
+   
       <gz_frame_id>camera_link_optical</gz_frame_id>
     </sensor>
   </gazebo>

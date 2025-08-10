@@ -26,7 +26,7 @@ def generate_launch_description():
 
     log_frequency_arg = DeclareLaunchArgument(
         'log_frequency',
-        default_value='3',
+        default_value='5',
         description='Frequency of logs stored in file'
     )
 

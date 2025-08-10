@@ -10,10 +10,9 @@ Repository for labs of ROS2 training, using Ubuntu 24.04, ROS2 Jazzy LTS and Gaz
 
 *enhanced_publisher_node* publishes temperatures for the subscribers *advanced_monitor_node* and *logger_node*. It uses *publishing_rate* to control the frequency of publishes, and *maximum_temp* and *minimum_temp* to set the amplitude of possible temperatures.
 
-*warning_temperature_threshold* and *critical_temperature_threshold* control the thresholds for the warnings.
+*warning_temperature_threshold* and *critical_temperature_threshold* control the thresholds for the warnings. It calculates a simple moving average filter to reduce false alarms, and compares the resulting value with the thresholds.
 
 Every *log_frequency* readings, the temperature value and timestamp is logged in a file.
-
 
 Use ros2 launch temperature_system launch.py to run, needs xterm installed to run.
 
