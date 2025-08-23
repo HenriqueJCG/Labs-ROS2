@@ -7,10 +7,10 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     # Get package directory
-    pkg_dir = get_package_share_directory('simple_robot_description')
+    pkg_dir = get_package_share_directory('my_robot_description')
 
     # Paths to files
-    urdf_file = os.path.join(pkg_dir, 'urdf', 'simple_robot_gazebo.urdf')
+    urdf_file = os.path.join(pkg_dir, 'urdf', 'my_robot_gazebo.urdf')
     world_file = os.path.join(pkg_dir, 'worlds', 'diff_drive', 'diff_drive.sdf')
 
     # Launch configuration variables
