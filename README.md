@@ -16,6 +16,10 @@ Every *log_frequency* readings, the temperature value and timestamp is logged in
 
 Use ros2 launch temperature_system launch.py to run, needs xterm installed to run.
 
+**Youtube Video:** [https://www.youtube.com/watch?v=uT9rRpTyGzo&feature=youtu.be](https://www.youtube.com/watch?v=uT9rRpTyGzo&feature=youtu.be)
+
+---
+
 ### Lab2 - src/simple_robot_description and src/my_robot_description
 
 **Challenge:**
@@ -23,10 +27,16 @@ Use ros2 launch temperature_system launch.py to run, needs xterm installed to ru
 To run with Gazebo use *ros2 launch my_robot_description gazebo.launch.py* and to run the display only on rviz2 use *ros2 launch my_robot_description display.launch.py*.
 
 
-Changes to the Gazebo world arrre made on the *diff_drive.sdf* file and changes to the robot are made on *my_robot_gazebo.urdf* and *my_robot.urdf*. 
+Changes to the Gazebo world are made on the *diff_drive.sdf* file and changes to the robot are made on *my_robot_gazebo.urdf* and *my_robot.urdf*. 
 
+**Youtube Video:** 
+
+---
 
 ### Lab3 - /launch/include/ and /launch/robot_complete.launch.py
 
 **Challenge:**
 
+
+
+**Youtube Video:** 
