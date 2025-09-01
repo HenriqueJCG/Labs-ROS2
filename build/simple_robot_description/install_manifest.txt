@@ -1,4 +1,3 @@
-/home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/urdf/my_robot_gazebo.urdf
 /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/urdf/simple_robot_gazebo.urdf
 /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/urdf/simple_robot.urdf
 /home/henrique/ros2_ws/install/simple_robot_description/share/simple_robot_description/include/rviz.launch.py

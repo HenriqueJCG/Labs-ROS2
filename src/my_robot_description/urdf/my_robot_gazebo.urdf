@@ -21,6 +21,28 @@
       <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
     </inertial>
   </link>
+
+  <!-- Add cillinder on top of the robot-->
+  <link name="top_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.1" length="0.07"/>
+      </geometry>
+      <material name="yellow">
+        <color rgba="0.8 0.8 0.0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.1" length="0.07"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
   
   <!-- Right Wheel -->
   <link name="right_wheel">
@@ -95,6 +117,12 @@
       <inertia ixx="0.00002" ixy="0.0" ixz="0.0" iyy="0.00002" iyz="0.0" izz="0.00002"/>
     </inertial>
   </link>
+
+  <joint name="top_link_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="top_link"/>
+    <origin xyz="0 0 0.085" rpy="0 0 0"/>
+  </joint>
 
   <!-- Right Wheel Joint -->
   <joint name="right_wheel_joint" type="continuous">
@@ -241,6 +269,9 @@
   <gazebo reference="left_camera_link">
     <material>Gazebo/Red</material>
   </gazebo>
+  <gazebo reference="top_link">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
 
   <!-- TODO: Add Gazebo plugins for:
        - Joint state publisher
@@ -283,11 +314,11 @@
 
   <!-- TODO: Add camera sensors for both left and right cameras -->
 
-  <gazebo reference="camera_link">
+  <gazebo reference="right_camera_link">
     <sensor name="right_camera" type="camera">
       <update_rate>10.0</update_rate>
       <camera>
-        <camera_info_topic>camera/camera_info</camera_info_topic>
+        <camera_info_topic>right_camera/camera_info</camera_info_topic>
         <horizontal_fov>1.089</horizontal_fov>
         <image>
             <format>R8G8B8</format>
@@ -304,12 +335,12 @@
     </sensor>
   </gazebo>
 
-  <gazebo reference="camera_link">
+  <gazebo reference="left_camera_link">
     <sensor name="left_camera" type="camera">
 
       <update_rate>10.0</update_rate>
       <camera>
-        <camera_info_topic>camera/camera_info</camera_info_topic>
+        <camera_info_topic>left_camera/camera_info</camera_info_topic>
         <horizontal_fov>1.089</horizontal_fov>
         <image>
             <format>R8G8B8</format>

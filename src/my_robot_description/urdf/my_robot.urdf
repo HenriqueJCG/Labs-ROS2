@@ -12,7 +12,29 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.4 0.3.1"/>
+        <box size="0.4 0.3 0.1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <!-- Add cillinder on top of the robot-->
+  <link name="top_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.1" length="0.07"/>
+      </geometry>
+      <material name="yellow">
+        <color rgba="0.8 0.8 0.0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.1" length="0.07"/>
       </geometry>
     </collision>
     <inertial>
@@ -96,12 +118,18 @@
     </inertial>
   </link>
 
+  <joint name="top_link_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="top_link"/>
+    <origin xyz="0 0 0.085" rpy="0 0 0"/>
+  </joint>
+
   <!-- Right Wheel Joint -->
   <joint name="right_wheel_joint" type="continuous">
     <parent link="base_link"/>
     <child link="right_wheel"/>
     <!-- Position the wheel on its edge -->
-    <origin xyz="-0.15 -0.7 0" rpy="1.5707 0 0"/>
+    <origin xyz="-0.15 -0.17 0" rpy="1.5707 0 0"/>
     <!-- Rotate around Z axis as viewed from wheel's perspective -->
     <axis xyz="0 0 -1"/>
     <dynamics damping="0.01" friction="0.0"/>
@@ -112,7 +140,7 @@
     <parent link="base_link"/>
     <child link="left_wheel"/>
     <!-- Position the wheel on its edge -->
-    <origin xyz="-0.15 0.7 0" rpy="1.5707 0 0"/>
+    <origin xyz="-0.15 0.17 0" rpy="1.5707 0 0"/>
     <!-- Rotate around Z axis as viewed from wheel's perspective -->
     <axis xyz="0 0 -1"/>
     <dynamics damping="0.01" friction="0.0"/>

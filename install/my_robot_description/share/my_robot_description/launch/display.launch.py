@@ -46,7 +46,7 @@ def generate_launch_description():
         executable='joint_state_publisher',
         name='joint_state_publisher',
         output='screen',
-        arguments=['-d', os.path.join(pkg_dir, 'rviz', 'urdf_config.rviz')]
+        arguments=['-d', os.path.join(pkg_dir, 'rviz', 'urdf_config_nogazebo.rviz')]
     )
 
     # Joint state publisher GUI node
