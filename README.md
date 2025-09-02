@@ -27,7 +27,9 @@ Use ros2 launch temperature_system launch.py to run, needs xterm installed to ru
 To run with Gazebo use *ros2 launch my_robot_description gazebo.launch.py* and to run the display only on rviz2 use *ros2 launch my_robot_description display.launch.py*.
 
 
-Changes to the Gazebo world are made on the *diff_drive.sdf* file and changes to the robot are made on *my_robot_gazebo.urdf* and *my_robot.urdf*. 
+Changes to the Gazebo world are made on the *diff_drive.sdf* file and changes to the robot are made on *my_robot_gazebo.urdf* and *my_robot.urdf*. The length of the robot increased and it was added a cillinder to the top of the robot. The gazebo map includes 4 objects and a smaller walled area.
+
+Updated the *gazebo.launch.py* file and *gz_bridge.yaml* to include the bridge for both cameras.
 
 **Youtube Video:** 
 

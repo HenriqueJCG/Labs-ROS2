@@ -80,11 +80,18 @@ def generate_launch_description():
         ]
     )
 
-    # Camera bridge (example)
-    bridge_camera_image = Node(
+    # Right Camera bridge (example)
+    bridge_right_camera_image = Node(
         package="ros_gz_image",
         executable="image_bridge",
-        arguments=["/camera/image_raw"]
+        arguments=["/right_camera/image_raw"]
+    )
+
+    # Left Camera bridge (example)
+    bridge_left_camera_image = Node(
+        package="ros_gz_image",
+        executable="image_bridge",
+        arguments=["/left_camera/image_raw"]
     )
 
     # RViz
@@ -105,7 +112,8 @@ def generate_launch_description():
         robot_state_publisher_node,
         gz_sim,
         spawn_entity,
-        bridge_camera_image,
+        bridge_right_camera_image,
+        bridge_left_camera_image,
         ros_gz_bridge,
         rviz_node
     ])
