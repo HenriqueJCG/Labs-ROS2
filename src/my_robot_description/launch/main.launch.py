@@ -15,7 +15,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     # Get the package directory
-    pkg_dir = get_package_share_directory('your_robot_package')  # Replace with your package name
+    pkg_dir = get_package_share_directory('my_robot_description')  # Replace with your package name
     launch_dir = os.path.join(pkg_dir, 'launch')
 
     # Define paths
@@ -38,10 +38,56 @@ def generate_launch_description():
 
     # TODO: Create includes for component launch files
 
+    robot_description = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(components_dir, 'robot_description.launch.py')
+        )
+    )
+
+    visualization = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(components_dir, 'visualization.launch.py')
+        )
+    )
+
+    simulation_component = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(components_dir, 'simulation.launch.py')
+        )
+    )
+
+    control = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(components_dir, 'control.launch.py')
+        )
+    )
+    
     # TODO: Create conditional includes for mode-specific launch files
+
+    basic_mode = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(modes_dir, 'basic.launch.py')
+        ),
+        condition=IfCondition(operation_mode.perform(None) == 'basic')
+    )
+
+    simulation_mode = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(modes_dir, 'simulation.launch.py')
+        ),
+        condition=IfCondition(operation_mode.perform(None) == 'simulation')
+    )
+
+    teleop_mode = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(modes_dir, 'teleop.launch.py')
+        ),
+        condition=IfCondition(operation_mode.perform(None) == 'teleop')
+    )
 
     # Return the launch description
     return LaunchDescription([
         declare_mode,
+
         # TODO: Add all components and conditional mode launches
     ])
