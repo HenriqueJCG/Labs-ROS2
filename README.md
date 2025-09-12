@@ -26,6 +26,8 @@ Use ros2 launch temperature_system launch.py to run, needs xterm installed to ru
 
 To run with Gazebo use *ros2 launch my_robot_description gazebo.launch.py* and to run the display only on rviz2 use *ros2 launch my_robot_description display.launch.py*.
 
+To make the robot move use *source ~/ros2_ws/install/setup.bash \
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.1}}" --once*
 
 Changes to the Gazebo world are made on the *diff_drive.sdf* file and changes to the robot are made on *my_robot_gazebo.urdf* and *my_robot.urdf*. The length of the robot increased and it was added a cillinder to the top of the robot. The gazebo map includes 4 objects and a smaller walled area.
 
@@ -39,6 +41,17 @@ Updated the *gazebo.launch.py* file and *gz_bridge.yaml* to include the bridge f
 
 **Challenge:**
 
+The challenge uses modular launch files, used to launch robot_state_publisher, rviz, gazebo, and teleop keyboard, separately. The files are used to laucnh three modes, depending of the mode selected. It uses the robot and world created in the Lab2 challenge.
 
+To run use: *ros2 launch my_robot_description main.launch.py mode:=basic* and replace the mode with either *basic*, *simulation* or *teleop*.
+
+The basic mode launches robot_state_publisher and rviz. The simulation mode launches basic mode plus gazebo, and the teleop mode launches simulation mode and teleop keyboard for control. Each mode is selected using conditional execution.
+
+Environmental variables are also used, so *ROBOT_ENV=simulation ros2 launch my_robot_description main.launch.py* also works.
+
+
+To record data to play back later use *timeout 60 ros2 bag record -o ~/ros2_bags/my_robot_movement /cmd_vel /left_camera/image_raw /left_camera/camera_info /right_camera/image_raw /right_camera/camera_info*
+
+Then, with only rviz open use *ros2 bag play ~/ros2_bags/my_robot_movement --clock* to play back the recorded data.
 
 **Youtube Video:** 

@@ -29,9 +29,6 @@ def generate_launch_description():
     use_rviz = LaunchConfiguration('use_rviz', default='true')
     use_gazebo = LaunchConfiguration('use_gazebo', default='true')
     use_teleop = LaunchConfiguration('use_teleop', default='true')
-    param_file = LaunchConfiguration('param_file', default=os.path.join(pkg_dir, 'config', 'params', 'robot_config.yaml'))
-
-
     # Declare launch arguments
     declare_mode = DeclareLaunchArgument(
         'mode',
@@ -40,11 +37,6 @@ def generate_launch_description():
     )
 
     # Declare more launch arguments
-    declare_param_file = DeclareLaunchArgument(
-        'param_file',
-        default_value=os.path.join(pkg_dir, 'config', 'robot_config.yaml'),
-        description='Path to YAML parameter file'
-    )
 
     declare_use_rviz = DeclareLaunchArgument(
         'use_rviz',
@@ -71,7 +63,6 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
             os.path.join(modes_dir, 'basic.launch.py')
         ),
-        launch_arguments={'param_file': param_file}.items(),
         condition=IfCondition(
             PythonExpression([
             "'", operation_mode, "' == 'basic' and '", use_rviz, "' == 'true'"
@@ -79,26 +70,26 @@ def generate_launch_description():
         )
     )
 
+    #Launches Gazebo, rviz 
     simulation_mode = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(modes_dir, 'simulation.launch.py')
         ),
-        launch_arguments={'param_file': param_file}.items(),
         condition=IfCondition(
             PythonExpression([
-            "'", operation_mode, "' == 'simulation' and '", use_gazebo, "' == 'true'"
+            "'", operation_mode, "' == 'simulation' and '", use_gazebo, "' == 'true' and '", use_rviz, "' == 'true'"
             ])
         )
     )
 
+    #Launches Gazebo, rviz and teleop
     teleop_mode = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(modes_dir, 'teleop.launch.py')
         ),
-        launch_arguments={'param_file': param_file}.items(),
         condition=IfCondition(
             PythonExpression([
-            "'", operation_mode, "' == 'teleop' and '", use_teleop, "' == 'true'"
+            "'", operation_mode, "' == 'teleop' and '", use_teleop, "' == 'true' and '", use_gazebo, "' == 'true' and '", use_rviz, "' == 'true'"
             ])
         )
     )
@@ -126,7 +117,6 @@ def generate_launch_description():
         declare_use_rviz,
         declare_use_gazebo,
         declare_use_teleop,
-        declare_param_file,
 
         #Modes
         basic_mode,
