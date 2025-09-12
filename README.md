@@ -16,7 +16,7 @@ Every *log_frequency* readings, the temperature value and timestamp is logged in
 
 Use ros2 launch temperature_system launch.py to run, needs xterm installed to run.
 
-**Youtube Video:** [https://www.youtube.com/watch?v=uT9rRpTyGzo&feature=youtu.be](https://www.youtube.com/watch?v=uT9rRpTyGzo&feature=youtu.be)
+**Youtube Video:** [https://youtu.be/uT9rRpTyGzo](https://youtu.be/uT9rRpTyGzo)
 
 ---
 
@@ -33,7 +33,7 @@ Changes to the Gazebo world are made on the *diff_drive.sdf* file and changes to
 
 Updated the *gazebo.launch.py* file and *gz_bridge.yaml* to include the bridge for both cameras.
 
-**Youtube Video:**  [https://youtu.be/4sQdHkCS-Eg](https://youtu.be/4sQdHkCS-Eg)
+**Youtube Video:**  [https://youtu.be/6VFhPWjkFbE](https://youtu.be/6VFhPWjkFbE)
 
 ---
 
@@ -55,4 +55,4 @@ To record data to play back later use: *timeout 60 ros2 bag record -o ~/ros2_bag
 
 Then, with only rviz open use *ros2 bag play ~/ros2_bags/my_robot_movement --clock* to play back the recorded data.
 
-**Youtube Video:**  [https://youtu.be/h7xe-Mm-hEE](https://youtu.be/h7xe-Mm-hEE)
+**Youtube Video:**  [https://youtu.be/tU6TCOokyfI](https://youtu.be/tU6TCOokyfI)
