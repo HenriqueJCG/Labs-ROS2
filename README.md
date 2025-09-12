@@ -33,7 +33,7 @@ Changes to the Gazebo world are made on the *diff_drive.sdf* file and changes to
 
 Updated the *gazebo.launch.py* file and *gz_bridge.yaml* to include the bridge for both cameras.
 
-**Youtube Video:**  [https://youtu.be/6VFhPWjkFbE](https://youtu.be/6VFhPWjkFbE)
+**Youtube Video:**  [https://youtu.be/5Ze9ou4D_iI](https://youtu.be/5Ze9ou4D_iI)
 
 ---
 
