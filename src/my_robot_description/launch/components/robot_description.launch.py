@@ -35,6 +35,9 @@ def generate_launch_description():
     # Use the default path directly for Command substitution
     robot_description_command = Command(['xacro ', default_urdf_path])
 
+    with open(default_urdf_path, 'r') as file:
+        robot_description = file.read()
+
     # Create the robot state publisher node
     robot_state_publisher_node = Node(
         package='robot_state_publisher',
@@ -42,7 +45,7 @@ def generate_launch_description():
         name='robot_state_publisher',
         output='screen',
         parameters=[{
-            'robot_description': robot_description_command,
+            'robot_description': robot_description,
             'use_sim_time': use_sim_time,
             'qos_overrides./robot_description.publisher.durability': 'transient_local',
             'qos_overrides./robot_description.publisher.reliability': 'reliable'

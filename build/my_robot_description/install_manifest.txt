@@ -1,7 +1,14 @@
 /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/my_robot_gazebo.urdf
 /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/my_robot.urdf
+/home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch/components/robot_description.launch.py
+/home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch/components/control.launch.py
+/home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch/components/simulation.launch.py
+/home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch/components/visualization.launch.py
 /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch/gazebo.launch.py
 /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch/main.launch.py
+/home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch/modes/simulation.launch.py
+/home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch/modes/teleop.launch.py
+/home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch/modes/basic.launch.py
 /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/launch/display.launch.py
 /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/rviz/urdf_config_nogazebo.rviz
 /home/henrique/ros2_ws/install/my_robot_description/share/my_robot_description/rviz/urdf_config.rviz
