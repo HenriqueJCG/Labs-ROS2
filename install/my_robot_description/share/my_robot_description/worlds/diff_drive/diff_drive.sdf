@@ -1,7 +1,7 @@
 <sdf version="1.6">
   <world name="default">
     <physics name="1ms" type="ignored">
-      <max_step_size>0.005</max_step_size>
+      <max_step_size>0.001</max_step_size>
       <real_time_factor>1.0</real_time_factor>
     </physics>
 
@@ -43,7 +43,7 @@
           <material>
             <ambient>0.8 0.8 0.8 1</ambient>
             <diffuse>0.8 0.8 0.8 1</diffuse>
-            <specular>0 0 0 1</specular>
+            <specular>0.1 0.1 0.1 1</specular>
           </material>
         </visual>
       </link>
@@ -71,7 +71,7 @@
           <material>
             <ambient>0.8 0.2 0.2 1</ambient>
             <diffuse>0.8 0.2 0.2 1</diffuse>
-            <specular>0 0 0 1</specular>
+            <specular>0.1 0.1 0.1 1</specular>
           </material>
         </visual>
       </link>
@@ -98,7 +98,7 @@
           <material>
             <ambient>0.2 0.8 0.2 1</ambient>
             <diffuse>0.2 0.8 0.2 1</diffuse>
-            <specular>0 0 0 1</specular>
+            <specular>0.1 0.1 0.1 1</specular>
           </material>
         </visual>
       </link>
@@ -125,7 +125,7 @@
           <material>
             <ambient>0.2 0.2 0.8 1</ambient>
             <diffuse>0.2 0.2 0.8 1</diffuse>
-            <specular>0 0 0 1</specular>
+            <specular>0.1 0.1 0.1 1</specular>
           </material>
         </visual>
       </link>
@@ -152,7 +152,7 @@
           <material>
             <ambient>0.8 0.8 0.2 1</ambient>
             <diffuse>0.8 0.8 0.2 1</diffuse>
-            <specular>0 0 0 1</specular>
+            <specular>0.1 0.1 0.1 1</specular>
           </material>
         </visual>
       </link>
@@ -183,7 +183,7 @@
           <material>
             <ambient>0.0 0.0 0.8 1</ambient>
             <diffuse>0.0 0.0 0.8 1</diffuse>
-            <specular>0 0 0 1</specular>
+            <specular>0.1 0.1 0.1 1</specular>
           </material>
         </visual>
       </link>
@@ -211,7 +211,7 @@
           <material>
             <ambient>0.8 0.0 0.0 1</ambient>
             <diffuse>0.8 0.0 0.0 1</diffuse>
-            <specular>0 0 0 1</specular>
+            <specular>0.1 0.1 0.1 1</specular>
           </material>
         </visual>
       </link>
@@ -239,7 +239,7 @@
           <material>
             <ambient>0.0 0.8 0.0 1</ambient>
             <diffuse>0.0 0.8 0.0 1</diffuse>
-            <specular>0 0 0 1</specular>
+            <specular>0.1 0.1 0.1 1</specular>
           </material>
         </visual>
       </link>
@@ -270,7 +270,7 @@
           <material>
             <ambient>0.8 0.8 0.0 1</ambient>
             <diffuse>0.8 0.8 0.0 1</diffuse>
-            <specular>0 0 0 1</specular>
+            <specular>0.1 0.1 0.1 1</specular>
           </material>
         </visual>
       </link>
@@ -278,10 +278,10 @@
 
 
     <light type="directional" name="sun">
-      <cast_shadows>false</cast_shadows>
+      <cast_shadows>true</cast_shadows>
       <pose>0 0 10 0 0 0</pose>
       <diffuse>0.8 0.8 0.8 1</diffuse>
-      <specular>0 0 0 1</specular>
+      <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
         <range>1000</range>
         <constant>0.9</constant>

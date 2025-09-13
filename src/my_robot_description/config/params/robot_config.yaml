@@ -7,16 +7,15 @@ robot_state_publisher:
     publish_frequency: 50.0
 
 # Add more parameters for different nodes
-gazebo:
-  ros__parameters:
-    world_file: "worlds/diff_drive/diff_drive.sdf"
-    use_gui: true
-    robot_name: "simple_robot"
-    spawn_position:
-      x: 0.0
-      y: 0.0
-      z: 0.1
 
-teleop_twist_keyboard:
+robot_state_publisher_node:
   ros__parameters:
-    cmd_vel_topic: "/cmd_vel"
+    use_sim_time: true
+    qos_overrides:
+      /robot_description.publisher:
+        durability: transient_local
+        reliability: reliable 
+
+rviz_node:
+  ros__parameters:
+    use_sim_time: true

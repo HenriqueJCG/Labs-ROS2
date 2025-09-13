@@ -26,9 +26,11 @@ def generate_launch_description():
     operation_mode = LaunchConfiguration('mode', default=EnvironmentVariable('ROBOT_ENV', default_value='basic'))
 
     # Add more launch configuration variables
+    param_file = LaunchConfiguration('param_file')
     use_rviz = LaunchConfiguration('use_rviz', default='true')
     use_gazebo = LaunchConfiguration('use_gazebo', default='true')
     use_teleop = LaunchConfiguration('use_teleop', default='true')
+
     # Declare launch arguments
     declare_mode = DeclareLaunchArgument(
         'mode',
@@ -37,6 +39,12 @@ def generate_launch_description():
     )
 
     # Declare more launch arguments
+
+    declare_param_file = DeclareLaunchArgument(
+        'param_file',
+        default_value=os.path.join(pkg_dir, 'config', 'params', 'robot_config.yaml'),
+        description='YAML parameter file for all components'
+    )
 
     declare_use_rviz = DeclareLaunchArgument(
         'use_rviz',
@@ -67,7 +75,8 @@ def generate_launch_description():
             PythonExpression([
             "'", operation_mode, "' == 'basic' and '", use_rviz, "' == 'true'"
             ])
-        )
+        ),
+        launch_arguments={'param_file': param_file}.items()
     )
 
     #Launches Gazebo, rviz 
@@ -79,7 +88,8 @@ def generate_launch_description():
             PythonExpression([
             "'", operation_mode, "' == 'simulation' and '", use_gazebo, "' == 'true' and '", use_rviz, "' == 'true'"
             ])
-        )
+        ),
+        launch_arguments={'param_file': param_file}.items()
     )
 
     #Launches Gazebo, rviz and teleop
@@ -91,7 +101,8 @@ def generate_launch_description():
             PythonExpression([
             "'", operation_mode, "' == 'teleop' and '", use_teleop, "' == 'true' and '", use_gazebo, "' == 'true' and '", use_rviz, "' == 'true'"
             ])
-        )
+        ),
+        launch_arguments={'param_file': param_file}.items()
     )
 
     # Declare environment variable
@@ -114,6 +125,7 @@ def generate_launch_description():
 
         #Add all components and conditional mode launches
         #Arguments
+        declare_param_file,
         declare_use_rviz,
         declare_use_gazebo,
         declare_use_teleop,

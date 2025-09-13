@@ -16,6 +16,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     use_rviz = LaunchConfiguration('use_rviz', default='true')
     rviz_config = LaunchConfiguration('rviz_config', default=os.path.join(pkg_dir, 'rviz', 'urdf_config.rviz'))
+    param_file = LaunchConfiguration('param_file')
 
     # Declare launch arguments
     declare_use_sim_time = DeclareLaunchArgument(
@@ -43,7 +44,7 @@ def generate_launch_description():
         name='rviz2',
         output='screen',
         arguments=['-d',rviz_config],
-        parameters=[{'use_sim_time': use_sim_time}],
+        parameters=[param_file],
         condition=IfCondition(use_rviz)
     )
 

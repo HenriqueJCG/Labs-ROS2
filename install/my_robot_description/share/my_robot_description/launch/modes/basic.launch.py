@@ -12,15 +12,8 @@ def generate_launch_description():
     pkg_dir = get_package_share_directory('my_robot_description')
     include_dir = os.path.join(pkg_dir, 'launch/components')
 
+    #Forwarded param_file from main launch file
     param_file = LaunchConfiguration('param_file')
-
-    #Import parameters from parameters file
-    declare_param_file = DeclareLaunchArgument(
-        'param_file',
-        default_value=os.path.join(pkg_dir, 'config', 'params', 'robot_config.yaml'),
-        description='YAML parameter file'
-    )
-
     # Include the robot_description and rviz launch files from the modular components
     robot_description = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(os.path.join(include_dir, 'robot_description.launch.py')),
@@ -33,7 +26,6 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        declare_param_file,
         robot_description,
         rviz
     ])

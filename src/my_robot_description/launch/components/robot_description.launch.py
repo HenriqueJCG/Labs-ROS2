@@ -14,6 +14,7 @@ def generate_launch_description():
     # Create launch configuration variables
     use_sim_time = LaunchConfiguration('use_sim_time')
     urdf_file_name = LaunchConfiguration('urdf_file')
+    param_file = LaunchConfiguration('param_file')
 
     # Default URDF file path as a string
     default_urdf_path = os.path.join(pkg_dir, 'urdf', 'my_robot_gazebo.urdf')
@@ -44,11 +45,8 @@ def generate_launch_description():
         executable='robot_state_publisher',
         name='robot_state_publisher',
         output='screen',
-        parameters=[{
-            'robot_description': robot_description,
-            'use_sim_time': use_sim_time,
-            'qos_overrides./robot_description.publisher.durability': 'transient_local',
-            'qos_overrides./robot_description.publisher.reliability': 'reliable'
+        parameters=[param_file, {
+            'robot_description': robot_description
         }]
     )
 

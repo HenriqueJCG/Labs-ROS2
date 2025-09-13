@@ -21,6 +21,7 @@ def generate_launch_description():
     x_pos = LaunchConfiguration('x_pos', default='0.0')
     y_pos = LaunchConfiguration('y_pos', default='0.0')
     z_pos = LaunchConfiguration('z_pos', default='0.1')
+    param_file = LaunchConfiguration('param_file')
 
     # Declare launch arguments
     declare_use_sim_time = DeclareLaunchArgument(
