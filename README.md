@@ -1,6 +1,8 @@
 # Labs-ROS2
 Repository for labs of ROS2 training, using Ubuntu 24.04, ROS2 Jazzy LTS and Gazebo Harmonic.
 
+First source the setup file: `cd ~/ros2_ws` `colcon build` `source install/setup.bash`
+
 ### Lab1 - src/temperature_monitor and src/temperature_system
 
 **Challenge:**
